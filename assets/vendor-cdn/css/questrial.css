@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Questrial';
+	src: url('../fonts/Questrial-Regular.eot');
+	src: local('Questrial'), local('Questrial-Regular'),
+	url('../fonts/Questrial-Regular.eot?') format('embedded-opentype'),
+	url('../fonts/Questrial-Regular.woff2') format('woff2'),
+	url('../fonts/Questrial-Regular.woff') format('woff'),
+	url('../fonts/Questrial-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

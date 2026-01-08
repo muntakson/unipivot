@@ -1,0 +1,506 @@
+{
+  "generatedAt": "2026-01-08T14:25:21.638Z",
+  "originalUrl": "https://www.unipivot.org",
+  "cloneUrl": "https://unipivot.iotok.org",
+  "summary": {
+    "pagesCompared": 12,
+    "visualDifferences": 7,
+    "contentDifferences": 12,
+    "pagesWithIssues": 12
+  },
+  "pages": [
+    {
+      "path": "/",
+      "visual": {
+        "page": "/",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/__original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/__clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/__diff.png",
+        "diffPixelCount": 8293716,
+        "diffPercentage": 38.54,
+        "isMatch": false
+      },
+      "content": {
+        "page": "/",
+        "textDifferences": [
+          {
+            "selector": "main",
+            "originalText": "{ \"@context\": \"http://schema.org\", \"@type\": \"VideoObject\", \"contentUrl\": \"https://www.youtube.com/wa",
+            "cloneText": "{ \"@context\": \"http://schema.org\", \"@type\": \"ImageObject\", \"contentUrl\": \"https://cdn.imweb.me/thumb",
+            "type": "changed"
+          },
+          {
+            "selector": "main",
+            "originalText": "site search [온라인 독서 15] 나를 키우는 철학 :알랭드보통 특집 모임 소개 2주마다 만나는 남북청년들의 독서 모임, 일반적인 독서모임보다 감칠 맛이 가미된 유니피벗의",
+            "cloneText": "site search [온라인 독서 15] 나를 키우는 철학 :알랭드보통 특집 모임 소개 2주마다 만나는 남북청년들의 독서 모임, 일반적인 독서모임보다 감칠 맛이 가미된 유니피벗의",
+            "type": "changed"
+          },
+          {
+            "selector": "main",
+            "originalText": "비폭력대화 강연 #이윤정 #비폭력대화 #유니피벗 #남북청년 #온라인독서모임 #독서모임 #통일 #한반도평화 #남북통합 10주 안에 끝내는 책쓰기 강연 최영원 작가님께서 강연해주고 있",
+            "cloneText": "너무나 좋은 시간이었다. 모두가 들었으면 하는 강연 한번 알면 인생이 달라지는 교육 이윤정 선생님의 강연에 빠져버렸다. #비폭력대화 #유니피벗 #남북청년 #온라인독서모임 #독서모임",
+            "type": "changed"
+          }
+        ],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 5
+      }
+    },
+    {
+      "path": "/about",
+      "visual": {
+        "page": "/about",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_about_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_about_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_about_diff.png",
+        "diffPixelCount": 140398,
+        "diffPercentage": 0.68,
+        "isMatch": true
+      },
+      "content": {
+        "page": "/about",
+        "textDifferences": [],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 2
+      }
+    },
+    {
+      "path": "/board",
+      "visual": {
+        "page": "/board",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_board_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_board_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_board_diff.png",
+        "diffPixelCount": 44801,
+        "diffPercentage": 0.9,
+        "isMatch": true
+      },
+      "content": {
+        "page": "/board",
+        "textDifferences": [],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 2
+      }
+    },
+    {
+      "path": "/bookmap",
+      "visual": {
+        "page": "/bookmap",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookmap_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookmap_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookmap_diff.png",
+        "diffPixelCount": 315757,
+        "diffPercentage": 2.82,
+        "isMatch": false
+      },
+      "content": {
+        "page": "/bookmap",
+        "textDifferences": [],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 2
+      }
+    },
+    {
+      "path": "/donate",
+      "visual": {
+        "page": "/donate",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_donate_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_donate_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_donate_diff.png",
+        "diffPixelCount": 483081,
+        "diffPercentage": 3.11,
+        "isMatch": false
+      },
+      "content": {
+        "page": "/donate",
+        "textDifferences": [],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 2
+      }
+    },
+    {
+      "path": "/kmove",
+      "visual": {
+        "page": "/kmove",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_kmove_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_kmove_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_kmove_diff.png",
+        "diffPixelCount": 704777,
+        "diffPercentage": 3.08,
+        "isMatch": false
+      },
+      "content": {
+        "page": "/kmove",
+        "textDifferences": [
+          {
+            "selector": "main",
+            "originalText": "독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "cloneText": "K-MOVE 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "type": "changed"
+          },
+          {
+            "selector": "main",
+            "originalText": "K-MOVE 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE { \"@context\": \"http://schema.org\", \"@type\": \"ImageObject\", \"con",
+            "cloneText": "K-MOVE 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "type": "changed"
+          }
+        ],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 4
+      }
+    },
+    {
+      "path": "/reviews",
+      "visual": {
+        "page": "/reviews",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_reviews_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_reviews_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_reviews_diff.png",
+        "diffPixelCount": 94814,
+        "diffPercentage": 0.81,
+        "isMatch": true
+      },
+      "content": {
+        "page": "/reviews",
+        "textDifferences": [
+          {
+            "selector": "main",
+            "originalText": "책방지도 정보제공 제안하기 소감나눔 글귀새김",
+            "cloneText": "소감나눔 책방지도 정보제공 제안하기 소감나눔 글귀새김",
+            "type": "changed"
+          },
+          {
+            "selector": "main",
+            "originalText": "소감나눔 책방지도 정보제공 제안하기 소감나눔 글귀새김 { \"@context\": \"http://schema.org\", \"@type\": \"ImageObject\", \"contentUrl",
+            "cloneText": "소감나눔 책방지도 정보제공 제안하기 소감나눔 글귀새김",
+            "type": "changed"
+          }
+        ],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 4
+      }
+    },
+    {
+      "path": "/seminar",
+      "visual": {
+        "page": "/seminar",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_seminar_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_seminar_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_seminar_diff.png",
+        "diffPixelCount": 789538,
+        "diffPercentage": 3.21,
+        "isMatch": false
+      },
+      "content": {
+        "page": "/seminar",
+        "textDifferences": [
+          {
+            "selector": "main",
+            "originalText": "독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "cloneText": "LECTURES & SEMINARS 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "type": "changed"
+          },
+          {
+            "selector": "main",
+            "originalText": "LECTURES & SEMINARS 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE { \"@context\": \"http://schema.org\", \"@type\": \"Image",
+            "cloneText": "LECTURES & SEMINARS 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "type": "changed"
+          }
+        ],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 4
+      }
+    },
+    {
+      "path": "/bookclub_offline",
+      "visual": {
+        "page": "/bookclub_offline",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookclub_offline_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookclub_offline_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookclub_offline_diff.png",
+        "diffPixelCount": 364176,
+        "diffPercentage": 2.22,
+        "isMatch": false
+      },
+      "content": {
+        "page": "/bookclub_offline",
+        "textDifferences": [
+          {
+            "selector": "main",
+            "originalText": "독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "cloneText": "OFFLINE READING GROUP 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "type": "changed"
+          },
+          {
+            "selector": "main",
+            "originalText": "OFFLINE READING GROUP 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE { \"@context\": \"http://schema.org\", \"@type\": \"Ima",
+            "cloneText": "OFFLINE READING GROUP 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "type": "changed"
+          }
+        ],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 4
+      }
+    },
+    {
+      "path": "/bookclub_olinen",
+      "visual": {
+        "page": "/bookclub_olinen",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookclub_olinen_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookclub_olinen_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_bookclub_olinen_diff.png",
+        "diffPixelCount": 626629,
+        "diffPercentage": 2.54,
+        "isMatch": false
+      },
+      "content": {
+        "page": "/bookclub_olinen",
+        "textDifferences": [
+          {
+            "selector": "main",
+            "originalText": "독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "cloneText": "ONLINE READING GROUP 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "type": "changed"
+          },
+          {
+            "selector": "main",
+            "originalText": "ONLINE READING GROUP 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE { \"@context\": \"http://schema.org\", \"@type\": \"Imag",
+            "cloneText": "ONLINE READING GROUP 독서모임 온라인 독서모임 강연 및 세미나 K-MOVE",
+            "type": "changed"
+          }
+        ],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 4
+      }
+    },
+    {
+      "path": "/info",
+      "visual": {
+        "page": "/info",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_info_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_info_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_info_diff.png",
+        "diffPixelCount": 34547,
+        "diffPercentage": 0.61,
+        "isMatch": true
+      },
+      "content": {
+        "page": "/info",
+        "textDifferences": [
+          {
+            "selector": "main",
+            "originalText": "책방지도 정보제공 제안하기 소감나눔 글귀새김",
+            "cloneText": "정보제공 책방지도 정보제공 제안하기 소감나눔 글귀새김",
+            "type": "changed"
+          },
+          {
+            "selector": "main",
+            "originalText": "정보제공 책방지도 정보제공 제안하기 소감나눔 글귀새김 글번호 제목 글쓴이 작성시간 조회 공지 우리가 독후감을 써야 하는 이유 익명 2023-08-20 조회수 441 3 0 공지 산",
+            "cloneText": "정보제공 책방지도 정보제공 제안하기 소감나눔 글귀새김",
+            "type": "changed"
+          }
+        ],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 4
+      }
+    },
+    {
+      "path": "/opinion",
+      "visual": {
+        "page": "/opinion",
+        "originalScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_opinion_original.png",
+        "cloneScreenshot": "/home/jit/unipivot/comparison-tool/reports/screenshots/_opinion_clone.png",
+        "diffImage": "/home/jit/unipivot/comparison-tool/reports/screenshots/_opinion_diff.png",
+        "diffPixelCount": 16058,
+        "diffPercentage": 0.37,
+        "isMatch": true
+      },
+      "content": {
+        "page": "/opinion",
+        "textDifferences": [],
+        "imageDifferences": [],
+        "linkDifferences": [
+          {
+            "text": "Members",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          },
+          {
+            "text": "Jobs",
+            "originalHref": "",
+            "cloneHref": "",
+            "type": "missing"
+          }
+        ],
+        "metaDifferences": [],
+        "totalDifferences": 2
+      }
+    }
+  ]
+}

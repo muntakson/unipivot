@@ -1,0 +1,4182 @@
+@font-face {
+  font-family: 'psi';
+  src:  url('fonts/psi.eot%3Fkdxvq7');
+  src:  url('fonts/psi.eot%3Fkdxvq7') format('embedded-opentype'),
+    url('fonts/psi.ttf%3Fkdxvq7') format('truetype'),
+    url('fonts/psi.woff%3Fkdxvq7') format('woff'),
+    url('fonts/psi.svg%3Fkdxvq7') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="psi-"], [class*=" psi-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'psi' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.psi-acorn-light:before {
+  content: "\e900";
+}
+.psi-address-book-light:before {
+  content: "\e901";
+}
+.psi-address-book-tabs-light:before {
+  content: "\e902";
+}
+.psi-air-traffic-control-light:before {
+  content: "\e903";
+}
+.psi-airplane-in-flight-light:before {
+  content: "\e904";
+}
+.psi-airplane-landing-light:before {
+  content: "\e905";
+}
+.psi-airplane-light:before {
+  content: "\e906";
+}
+.psi-airplane-takeoff-light:before {
+  content: "\e907";
+}
+.psi-airplane-taxiing-light:before {
+  content: "\e908";
+}
+.psi-airplane-tilt-light:before {
+  content: "\e909";
+}
+.psi-airplay-light:before {
+  content: "\e90a";
+}
+.psi-alarm-light:before {
+  content: "\e90b";
+}
+.psi-alien-light:before {
+  content: "\e90c";
+}
+.psi-align-bottom-light:before {
+  content: "\e90d";
+}
+.psi-align-bottom-simple-light:before {
+  content: "\e90e";
+}
+.psi-align-center-horizontal-light:before {
+  content: "\e90f";
+}
+.psi-align-center-horizontal-simple-light:before {
+  content: "\e910";
+}
+.psi-align-center-vertical-light:before {
+  content: "\e911";
+}
+.psi-align-center-vertical-simple-light:before {
+  content: "\e912";
+}
+.psi-align-left-light:before {
+  content: "\e913";
+}
+.psi-align-left-simple-light:before {
+  content: "\e914";
+}
+.psi-align-right-light:before {
+  content: "\e915";
+}
+.psi-align-right-simple-light:before {
+  content: "\e916";
+}
+.psi-align-top-light:before {
+  content: "\e917";
+}
+.psi-align-top-simple-light:before {
+  content: "\e918";
+}
+.psi-amazon-logo-light:before {
+  content: "\e919";
+}
+.psi-anchor-light:before {
+  content: "\e91b";
+}
+.psi-anchor-simple-light:before {
+  content: "\e91c";
+}
+.psi-android-logo-light:before {
+  content: "\e91d";
+}
+.psi-angle-light:before {
+  content: "\e91e";
+}
+.psi-angular-logo-light:before {
+  content: "\e91f";
+}
+.psi-app-store-logo-light:before {
+  content: "\e921";
+}
+.psi-app-window-light:before {
+  content: "\e922";
+}
+.psi-apple-logo-light:before {
+  content: "\e923";
+}
+.psi-apple-podcasts-logo-light:before {
+  content: "\e924";
+}
+.psi-approximate-equals-light:before {
+  content: "\e925";
+}
+.psi-archive-light:before {
+  content: "\e926";
+}
+.psi-armchair-light:before {
+  content: "\e927";
+}
+.psi-arrow-arc-left-light:before {
+  content: "\e928";
+}
+.psi-arrow-arc-right-light:before {
+  content: "\e929";
+}
+.psi-arrow-bend-double-up-left-light:before {
+  content: "\e92a";
+}
+.psi-arrow-bend-double-up-right-light:before {
+  content: "\e92b";
+}
+.psi-arrow-bend-down-left-light:before {
+  content: "\e92c";
+}
+.psi-arrow-bend-down-right-light:before {
+  content: "\e92d";
+}
+.psi-arrow-bend-left-down-light:before {
+  content: "\e92e";
+}
+.psi-arrow-bend-left-up-light:before {
+  content: "\e92f";
+}
+.psi-arrow-bend-right-down-light:before {
+  content: "\e930";
+}
+.psi-arrow-bend-right-up-light:before {
+  content: "\e931";
+}
+.psi-arrow-bend-up-left-light:before {
+  content: "\e932";
+}
+.psi-arrow-bend-up-right-light:before {
+  content: "\e933";
+}
+.psi-arrow-circle-down-left-light:before {
+  content: "\e934";
+}
+.psi-arrow-circle-down-light:before {
+  content: "\e935";
+}
+.psi-arrow-circle-down-right-light:before {
+  content: "\e936";
+}
+.psi-arrow-circle-left-light:before {
+  content: "\e937";
+}
+.psi-arrow-circle-right-light:before {
+  content: "\e938";
+}
+.psi-arrow-circle-up-left-light:before {
+  content: "\e939";
+}
+.psi-arrow-circle-up-light:before {
+  content: "\e93a";
+}
+.psi-arrow-circle-up-right-light:before {
+  content: "\e93b";
+}
+.psi-arrow-clockwise-light:before {
+  content: "\e93c";
+}
+.psi-arrow-counter-clockwise-light:before {
+  content: "\e93d";
+}
+.psi-arrow-down-left-light:before {
+  content: "\e93e";
+}
+.psi-arrow-down-light:before {
+  content: "\e93f";
+}
+.psi-arrow-down-right-light:before {
+  content: "\e940";
+}
+.psi-arrow-elbow-down-left-light:before {
+  content: "\e941";
+}
+.psi-arrow-elbow-down-right-light:before {
+  content: "\e942";
+}
+.psi-arrow-elbow-left-down-light:before {
+  content: "\e943";
+}
+.psi-arrow-elbow-left-light:before {
+  content: "\e944";
+}
+.psi-arrow-elbow-left-up-light:before {
+  content: "\e945";
+}
+.psi-arrow-elbow-right-down-light:before {
+  content: "\e946";
+}
+.psi-arrow-elbow-right-light:before {
+  content: "\e947";
+}
+.psi-arrow-elbow-right-up-light:before {
+  content: "\e948";
+}
+.psi-arrow-elbow-up-left-light:before {
+  content: "\e949";
+}
+.psi-arrow-elbow-up-right-light:before {
+  content: "\e94a";
+}
+.psi-arrow-fat-down-light:before {
+  content: "\e94b";
+}
+.psi-arrow-fat-left-light:before {
+  content: "\e94c";
+}
+.psi-arrow-fat-line-down-light:before {
+  content: "\e94d";
+}
+.psi-arrow-fat-line-left-light:before {
+  content: "\e94e";
+}
+.psi-arrow-fat-line-right-light:before {
+  content: "\e94f";
+}
+.psi-arrow-fat-line-up-light:before {
+  content: "\e950";
+}
+.psi-arrow-fat-lines-down-light:before {
+  content: "\e951";
+}
+.psi-arrow-fat-lines-left-light:before {
+  content: "\e952";
+}
+.psi-arrow-fat-lines-right-light:before {
+  content: "\e953";
+}
+.psi-arrow-fat-lines-up-light:before {
+  content: "\e954";
+}
+.psi-arrow-fat-right-light:before {
+  content: "\e955";
+}
+.psi-arrow-fat-up-light:before {
+  content: "\e956";
+}
+.psi-arrow-left-light:before {
+  content: "\e957";
+}
+.psi-arrow-line-down-left-light:before {
+  content: "\e958";
+}
+.psi-arrow-line-down-light:before {
+  content: "\e959";
+}
+.psi-arrow-line-down-right-light:before {
+  content: "\e95a";
+}
+.psi-arrow-line-left-light:before {
+  content: "\e95b";
+}
+.psi-arrow-line-right-light:before {
+  content: "\e95c";
+}
+.psi-arrow-line-up-left-light:before {
+  content: "\e95d";
+}
+.psi-arrow-line-up-light:before {
+  content: "\e95e";
+}
+.psi-arrow-line-up-right-light:before {
+  content: "\e95f";
+}
+.psi-arrow-right-light:before {
+  content: "\e960";
+}
+.psi-arrow-square-down-left-light:before {
+  content: "\e961";
+}
+.psi-arrow-square-down-light:before {
+  content: "\e962";
+}
+.psi-arrow-square-down-right-light:before {
+  content: "\e963";
+}
+.psi-arrow-square-in-light:before {
+  content: "\e964";
+}
+.psi-arrow-square-left-light:before {
+  content: "\e965";
+}
+.psi-arrow-square-out-light:before {
+  content: "\e966";
+}
+.psi-arrow-square-right-light:before {
+  content: "\e967";
+}
+.psi-arrow-square-up-left-light:before {
+  content: "\e968";
+}
+.psi-arrow-square-up-light:before {
+  content: "\e969";
+}
+.psi-arrow-square-up-right-light:before {
+  content: "\e96a";
+}
+.psi-arrow-u-down-left-light:before {
+  content: "\e96b";
+}
+.psi-arrow-u-down-right-light:before {
+  content: "\e96c";
+}
+.psi-arrow-u-left-down-light:before {
+  content: "\e96d";
+}
+.psi-arrow-u-left-up-light:before {
+  content: "\e96e";
+}
+.psi-arrow-u-right-down-light:before {
+  content: "\e96f";
+}
+.psi-arrow-u-right-up-light:before {
+  content: "\e970";
+}
+.psi-arrow-u-up-left-light:before {
+  content: "\e971";
+}
+.psi-arrow-u-up-right-light:before {
+  content: "\e972";
+}
+.psi-arrow-up-left-light:before {
+  content: "\e973";
+}
+.psi-arrow-up-light:before {
+  content: "\e974";
+}
+.psi-arrow-up-right-light:before {
+  content: "\e975";
+}
+.psi-arrows-clockwise-light:before {
+  content: "\e976";
+}
+.psi-arrows-counter-clockwise-light:before {
+  content: "\e977";
+}
+.psi-arrows-down-up-light:before {
+  content: "\e978";
+}
+.psi-arrows-horizontal-light:before {
+  content: "\e979";
+}
+.psi-arrows-in-line-horizontal-light:before {
+  content: "\e97c";
+}
+.psi-arrows-in-line-vertical-light:before {
+  content: "\e97d";
+}
+.psi-arrows-in-simple-light:before {
+  content: "\e97e";
+}
+.psi-arrows-left-right-light:before {
+  content: "\e97f";
+}
+.psi-arrows-merge-light:before {
+  content: "\e980";
+}
+.psi-arrows-out-line-horizontal-light:before {
+  content: "\e983";
+}
+.psi-arrows-out-line-vertical-light:before {
+  content: "\e984";
+}
+.psi-arrows-out-simple-light:before {
+  content: "\e985";
+}
+.psi-arrows-split-light:before {
+  content: "\e986";
+}
+.psi-arrows-vertical-light:before {
+  content: "\e987";
+}
+.psi-article-light:before {
+  content: "\e988";
+}
+.psi-asclepius-light:before {
+  content: "\e98b";
+}
+.psi-asterisk-light:before {
+  content: "\e98c";
+}
+.psi-asterisk-simple-light:before {
+  content: "\e98d";
+}
+.psi-at-light:before {
+  content: "\e98e";
+}
+.psi-atom-light:before {
+  content: "\e98f";
+}
+.psi-avocado-light:before {
+  content: "\e990";
+}
+.psi-axe-light:before {
+  content: "\e991";
+}
+.psi-baby-carriage-light:before {
+  content: "\e992";
+}
+.psi-baby-light:before {
+  content: "\e993";
+}
+.psi-backpack-light:before {
+  content: "\e994";
+}
+.psi-backspace-light:before {
+  content: "\e995";
+}
+.psi-bag-light:before {
+  content: "\e996";
+}
+.psi-bag-simple-light:before {
+  content: "\e997";
+}
+.psi-balloon-light:before {
+  content: "\e998";
+}
+.psi-barricade-light:before {
+  content: "\e9a1";
+}
+.psi-baseball-cap-light:before {
+  content: "\e9a2";
+}
+.psi-baseball-helmet-light:before {
+  content: "\e9a3";
+}
+.psi-basket-light:before {
+  content: "\e9a5";
+}
+.psi-basketball-light:before {
+  content: "\e9a6";
+}
+.psi-bathtub-light:before {
+  content: "\e9a7";
+}
+.psi-battery-charging-light:before {
+  content: "\e9a8";
+}
+.psi-battery-charging-vertical-light:before {
+  content: "\e9a9";
+}
+.psi-battery-empty-light:before {
+  content: "\e9aa";
+}
+.psi-battery-full-light:before {
+  content: "\e9ab";
+}
+.psi-battery-high-light:before {
+  content: "\e9ac";
+}
+.psi-battery-low-light:before {
+  content: "\e9ad";
+}
+.psi-battery-medium-light:before {
+  content: "\e9ae";
+}
+.psi-battery-plus-light:before {
+  content: "\e9af";
+}
+.psi-battery-plus-vertical-light:before {
+  content: "\e9b0";
+}
+.psi-battery-vertical-empty-light:before {
+  content: "\e9b1";
+}
+.psi-battery-vertical-full-light:before {
+  content: "\e9b2";
+}
+.psi-battery-vertical-high-light:before {
+  content: "\e9b3";
+}
+.psi-battery-vertical-low-light:before {
+  content: "\e9b4";
+}
+.psi-battery-vertical-medium-light:before {
+  content: "\e9b5";
+}
+.psi-battery-warning-light:before {
+  content: "\e9b6";
+}
+.psi-battery-warning-vertical-light:before {
+  content: "\e9b7";
+}
+.psi-beach-ball-light:before {
+  content: "\e9b8";
+}
+.psi-beanie-light:before {
+  content: "\e9b9";
+}
+.psi-bed-light:before {
+  content: "\e9ba";
+}
+.psi-beer-bottle-light:before {
+  content: "\e9bb";
+}
+.psi-beer-stein-light:before {
+  content: "\e9bc";
+}
+.psi-behance-logo-light:before {
+  content: "\e9bd";
+}
+.psi-bell-light:before {
+  content: "\e9be";
+}
+.psi-bell-ringing-light:before {
+  content: "\e9bf";
+}
+.psi-bell-simple-light:before {
+  content: "\e9c0";
+}
+.psi-bell-simple-ringing-light:before {
+  content: "\e9c1";
+}
+.psi-bell-simple-slash-light:before {
+  content: "\e9c2";
+}
+.psi-bell-simple-z-light:before {
+  content: "\e9c3";
+}
+.psi-bell-slash-light:before {
+  content: "\e9c4";
+}
+.psi-bell-z-light:before {
+  content: "\e9c5";
+}
+.psi-bicycle-light:before {
+  content: "\e9c8";
+}
+.psi-binary-light:before {
+  content: "\e9c9";
+}
+.psi-binoculars-light:before {
+  content: "\e9ca";
+}
+.psi-biohazard-light:before {
+  content: "\e9cb";
+}
+.psi-bird-light:before {
+  content: "\e9cc";
+}
+.psi-blueprint-light:before {
+  content: "\e9cd";
+}
+.psi-bluetooth-connected-light:before {
+  content: "\e9ce";
+}
+.psi-bluetooth-light:before {
+  content: "\e9cf";
+}
+.psi-bluetooth-slash-light:before {
+  content: "\e9d0";
+}
+.psi-bluetooth-x-light:before {
+  content: "\e9d1";
+}
+.psi-boat-light:before {
+  content: "\e9d2";
+}
+.psi-bomb-light:before {
+  content: "\e9d3";
+}
+.psi-bone-light:before {
+  content: "\e9d4";
+}
+.psi-book-bookmark-light:before {
+  content: "\e9d5";
+}
+.psi-book-light:before {
+  content: "\e9d6";
+}
+.psi-book-open-light:before {
+  content: "\e9d7";
+}
+.psi-book-open-text-light:before {
+  content: "\e9d8";
+}
+.psi-book-open-user-light:before {
+  content: "\e9d9";
+}
+.psi-bookmark-light:before {
+  content: "\e9da";
+}
+.psi-bookmark-simple-light:before {
+  content: "\e9db";
+}
+.psi-bookmarks-light:before {
+  content: "\e9dc";
+}
+.psi-bookmarks-simple-light:before {
+  content: "\e9dd";
+}
+.psi-boot-light:before {
+  content: "\e9df";
+}
+.psi-boules-light:before {
+  content: "\e9e0";
+}
+.psi-bowl-food-light:before {
+  content: "\e9e2";
+}
+.psi-bowl-steam-light:before {
+  content: "\e9e3";
+}
+.psi-bowling-ball-light:before {
+  content: "\e9e4";
+}
+.psi-box-arrow-down-light:before {
+  content: "\e9e5";
+}
+.psi-box-arrow-up-light:before {
+  content: "\e9e6";
+}
+.psi-brackets-angle-light:before {
+  content: "\e9e7";
+}
+.psi-brackets-curly-light:before {
+  content: "\e9e8";
+}
+.psi-brackets-square-light:before {
+  content: "\e9e9";
+}
+.psi-brain-light:before {
+  content: "\e9ea";
+}
+.psi-brandy-light:before {
+  content: "\e9eb";
+}
+.psi-bread-light:before {
+  content: "\e9ec";
+}
+.psi-bridge-light:before {
+  content: "\e9ed";
+}
+.psi-briefcase-light:before {
+  content: "\e9ee";
+}
+.psi-briefcase-metal-light:before {
+  content: "\e9ef";
+}
+.psi-broadcast-light:before {
+  content: "\e9f0";
+}
+.psi-browser-light:before {
+  content: "\e9f1";
+}
+.psi-browsers-light:before {
+  content: "\e9f2";
+}
+.psi-bug-droid-light:before {
+  content: "\e9f4";
+}
+.psi-bulldozer-light:before {
+  content: "\e9fa";
+}
+.psi-cable-car-light:before {
+  content: "\e9fc";
+}
+.psi-cactus-light:before {
+  content: "\e9fd";
+}
+.psi-cake-light:before {
+  content: "\e9fe";
+}
+.psi-calculator-light:before {
+  content: "\e9ff";
+}
+.psi-calendar-blank-light:before {
+  content: "\ea00";
+}
+.psi-calendar-check-light:before {
+  content: "\ea01";
+}
+.psi-calendar-dot-light:before {
+  content: "\ea02";
+}
+.psi-calendar-dots-light:before {
+  content: "\ea03";
+}
+.psi-calendar-heart-light:before {
+  content: "\ea04";
+}
+.psi-calendar-light:before {
+  content: "\ea05";
+}
+.psi-calendar-minus-light:before {
+  content: "\ea06";
+}
+.psi-calendar-plus-light:before {
+  content: "\ea07";
+}
+.psi-calendar-slash-light:before {
+  content: "\ea08";
+}
+.psi-calendar-star-light:before {
+  content: "\ea09";
+}
+.psi-calendar-x-light:before {
+  content: "\ea0a";
+}
+.psi-call-bell-light:before {
+  content: "\ea0b";
+}
+.psi-camera-light:before {
+  content: "\ea0c";
+}
+.psi-camera-plus-light:before {
+  content: "\ea0d";
+}
+.psi-camera-rotate-light:before {
+  content: "\ea0e";
+}
+.psi-camera-slash-light:before {
+  content: "\ea0f";
+}
+.psi-campfire-light:before {
+  content: "\ea10";
+}
+.psi-car-battery-light:before {
+  content: "\ea11";
+}
+.psi-car-light:before {
+  content: "\ea12";
+}
+.psi-car-profile-light:before {
+  content: "\ea13";
+}
+.psi-car-simple-light:before {
+  content: "\ea14";
+}
+.psi-cardholder-light:before {
+  content: "\ea15";
+}
+.psi-cards-light:before {
+  content: "\ea16";
+}
+.psi-cards-three-light:before {
+  content: "\ea17";
+}
+.psi-caret-circle-double-down-light:before {
+  content: "\ea18";
+}
+.psi-caret-circle-double-left-light:before {
+  content: "\ea19";
+}
+.psi-caret-circle-double-right-light:before {
+  content: "\ea1a";
+}
+.psi-caret-circle-double-up-light:before {
+  content: "\ea1b";
+}
+.psi-caret-circle-down-light:before {
+  content: "\ea1c";
+}
+.psi-caret-circle-left-light:before {
+  content: "\ea1d";
+}
+.psi-caret-circle-right-light:before {
+  content: "\ea1e";
+}
+.psi-caret-circle-up-down-light:before {
+  content: "\ea1f";
+}
+.psi-caret-circle-up-light:before {
+  content: "\ea20";
+}
+.psi-caret-double-down-light:before {
+  content: "\ea21";
+}
+.psi-caret-double-left-light:before {
+  content: "\ea22";
+}
+.psi-caret-double-right-light:before {
+  content: "\ea23";
+}
+.psi-caret-double-up-light:before {
+  content: "\ea24";
+}
+.psi-caret-down-light:before {
+  content: "\ea25";
+}
+.psi-caret-left-light:before {
+  content: "\ea26";
+}
+.psi-caret-line-down-light:before {
+  content: "\ea27";
+}
+.psi-caret-line-left-light:before {
+  content: "\ea28";
+}
+.psi-caret-line-right-light:before {
+  content: "\ea29";
+}
+.psi-caret-line-up-light:before {
+  content: "\ea2a";
+}
+.psi-caret-right-light:before {
+  content: "\ea2b";
+}
+.psi-caret-up-down-light:before {
+  content: "\ea2c";
+}
+.psi-caret-up-light:before {
+  content: "\ea2d";
+}
+.psi-carrot-light:before {
+  content: "\ea2e";
+}
+.psi-cassette-tape-light:before {
+  content: "\ea30";
+}
+.psi-castle-turret-light:before {
+  content: "\ea31";
+}
+.psi-cat-light:before {
+  content: "\ea32";
+}
+.psi-cell-signal-full-light:before {
+  content: "\ea33";
+}
+.psi-cell-signal-high-light:before {
+  content: "\ea34";
+}
+.psi-cell-signal-low-light:before {
+  content: "\ea35";
+}
+.psi-cell-signal-medium-light:before {
+  content: "\ea36";
+}
+.psi-cell-signal-none-light:before {
+  content: "\ea37";
+}
+.psi-cell-tower-light:before {
+  content: "\ea3a";
+}
+.psi-certificate-light:before {
+  content: "\ea3b";
+}
+.psi-chair-light:before {
+  content: "\ea3c";
+}
+.psi-chalkboard-light:before {
+  content: "\ea3d";
+}
+.psi-chalkboard-simple-light:before {
+  content: "\ea3e";
+}
+.psi-chalkboard-teacher-light:before {
+  content: "\ea3f";
+}
+.psi-charging-station-light:before {
+  content: "\ea41";
+}
+.psi-chart-bar-horizontal-light:before {
+  content: "\ea42";
+}
+.psi-chart-bar-light:before {
+  content: "\ea43";
+}
+.psi-chart-donut-light:before {
+  content: "\ea44";
+}
+.psi-chart-line-down-light:before {
+  content: "\ea45";
+}
+.psi-chart-line-light:before {
+  content: "\ea46";
+}
+.psi-chart-line-up-light:before {
+  content: "\ea47";
+}
+.psi-chart-pie-light:before {
+  content: "\ea48";
+}
+.psi-chart-pie-slice-light:before {
+  content: "\ea49";
+}
+.psi-chart-polar-light:before {
+  content: "\ea4a";
+}
+.psi-chart-scatter-light:before {
+  content: "\ea4b";
+}
+.psi-chat-centered-dots-light:before {
+  content: "\ea4c";
+}
+.psi-chat-centered-light:before {
+  content: "\ea4d";
+}
+.psi-chat-centered-slash-light:before {
+  content: "\ea4e";
+}
+.psi-chat-centered-text-light:before {
+  content: "\ea4f";
+}
+.psi-chat-circle-dots-light:before {
+  content: "\ea50";
+}
+.psi-chat-circle-light:before {
+  content: "\ea51";
+}
+.psi-chat-circle-text-light:before {
+  content: "\ea52";
+}
+.psi-chat-dots-light:before {
+  content: "\ea53";
+}
+.psi-chat-light:before {
+  content: "\ea54";
+}
+.psi-chat-slash-light:before {
+  content: "\ea55";
+}
+.psi-chat-teardrop-dots-light:before {
+  content: "\ea56";
+}
+.psi-chat-teardrop-light:before {
+  content: "\ea57";
+}
+.psi-chat-teardrop-text-light:before {
+  content: "\ea58";
+}
+.psi-chat-text-light:before {
+  content: "\ea59";
+}
+.psi-chats-circle-light:before {
+  content: "\ea5a";
+}
+.psi-chats-light:before {
+  content: "\ea5b";
+}
+.psi-chats-teardrop-light:before {
+  content: "\ea5c";
+}
+.psi-check-circle-light:before {
+  content: "\ea5d";
+}
+.psi-check-fat-light:before {
+  content: "\ea5e";
+}
+.psi-check-light:before {
+  content: "\ea5f";
+}
+.psi-check-square-light:before {
+  content: "\ea60";
+}
+.psi-check-square-offset-light:before {
+  content: "\ea61";
+}
+.psi-checks-light:before {
+  content: "\ea63";
+}
+.psi-cheese-light:before {
+  content: "\ea65";
+}
+.psi-chef-hat-light:before {
+  content: "\ea66";
+}
+.psi-cherries-light:before {
+  content: "\ea67";
+}
+.psi-church-light:before {
+  content: "\ea68";
+}
+.psi-cigarette-light:before {
+  content: "\ea69";
+}
+.psi-cigarette-slash-light:before {
+  content: "\ea6a";
+}
+.psi-circle-dashed-light:before {
+  content: "\ea6b";
+}
+.psi-circle-half-light:before {
+  content: "\ea6c";
+}
+.psi-circle-half-tilt-light:before {
+  content: "\ea6d";
+}
+.psi-circle-light:before {
+  content: "\ea6e";
+}
+.psi-circle-notch-light:before {
+  content: "\ea6f";
+}
+.psi-circles-four-light:before {
+  content: "\ea70";
+}
+.psi-circles-three-light:before {
+  content: "\ea71";
+}
+.psi-circles-three-plus-light:before {
+  content: "\ea72";
+}
+.psi-circuitry-light:before {
+  content: "\ea73";
+}
+.psi-clipboard-light:before {
+  content: "\ea75";
+}
+.psi-clipboard-text-light:before {
+  content: "\ea76";
+}
+.psi-clock-afternoon-light:before {
+  content: "\ea77";
+}
+.psi-clock-clockwise-light:before {
+  content: "\ea78";
+}
+.psi-clock-countdown-light:before {
+  content: "\ea79";
+}
+.psi-clock-counter-clockwise-light:before {
+  content: "\ea7a";
+}
+.psi-clock-light:before {
+  content: "\ea7b";
+}
+.psi-clock-user-light:before {
+  content: "\ea7c";
+}
+.psi-closed-captioning-light:before {
+  content: "\ea7d";
+}
+.psi-cloud-arrow-down-light:before {
+  content: "\ea7e";
+}
+.psi-cloud-arrow-up-light:before {
+  content: "\ea7f";
+}
+.psi-cloud-check-light:before {
+  content: "\ea80";
+}
+.psi-cloud-fog-light:before {
+  content: "\ea81";
+}
+.psi-cloud-light:before {
+  content: "\ea82";
+}
+.psi-cloud-lightning-light:before {
+  content: "\ea83";
+}
+.psi-cloud-moon-light:before {
+  content: "\ea84";
+}
+.psi-cloud-rain-light:before {
+  content: "\ea85";
+}
+.psi-cloud-slash-light:before {
+  content: "\ea86";
+}
+.psi-cloud-snow-light:before {
+  content: "\ea87";
+}
+.psi-cloud-sun-light:before {
+  content: "\ea88";
+}
+.psi-cloud-warning-light:before {
+  content: "\ea89";
+}
+.psi-cloud-x-light:before {
+  content: "\ea8a";
+}
+.psi-clover-light:before {
+  content: "\ea8b";
+}
+.psi-club-light:before {
+  content: "\ea8c";
+}
+.psi-coat-hanger-light:before {
+  content: "\ea8d";
+}
+.psi-coda-logo-light:before {
+  content: "\ea8e";
+}
+.psi-code-block-light:before {
+  content: "\ea8f";
+}
+.psi-code-light:before {
+  content: "\ea90";
+}
+.psi-code-simple-light:before {
+  content: "\ea91";
+}
+.psi-codepen-logo-light:before {
+  content: "\ea92";
+}
+.psi-codesandbox-logo-light:before {
+  content: "\ea93";
+}
+.psi-coffee-bean-light:before {
+  content: "\ea94";
+}
+.psi-coffee-light:before {
+  content: "\ea95";
+}
+.psi-coin-light:before {
+  content: "\ea96";
+}
+.psi-coin-vertical-light:before {
+  content: "\ea97";
+}
+.psi-coins-light:before {
+  content: "\ea98";
+}
+.psi-columns-light:before {
+  content: "\ea99";
+}
+.psi-columns-plus-left-light:before {
+  content: "\ea9a";
+}
+.psi-columns-plus-right-light:before {
+  content: "\ea9b";
+}
+.psi-command-light:before {
+  content: "\ea9c";
+}
+.psi-compass-light:before {
+  content: "\ea9d";
+}
+.psi-compass-rose-light:before {
+  content: "\ea9e";
+}
+.psi-compass-tool-light:before {
+  content: "\ea9f";
+}
+.psi-computer-tower-light:before {
+  content: "\eaa0";
+}
+.psi-contactless-payment-light:before {
+  content: "\eaa1";
+}
+.psi-control-light:before {
+  content: "\eaa2";
+}
+.psi-cookie-light:before {
+  content: "\eaa3";
+}
+.psi-cooking-pot-light:before {
+  content: "\eaa4";
+}
+.psi-copy-light:before {
+  content: "\eaa5";
+}
+.psi-copy-simple-light:before {
+  content: "\eaa6";
+}
+.psi-copyleft-light:before {
+  content: "\eaa7";
+}
+.psi-copyright-light:before {
+  content: "\eaa8";
+}
+.psi-corners-in-light:before {
+  content: "\eaa9";
+}
+.psi-corners-out-light:before {
+  content: "\eaaa";
+}
+.psi-couch-light:before {
+  content: "\eaab";
+}
+.psi-court-basketball-light:before {
+  content: "\eaac";
+}
+.psi-cow-light:before {
+  content: "\eaad";
+}
+.psi-cowboy-hat-light:before {
+  content: "\eaae";
+}
+.psi-cpu-light:before {
+  content: "\eaaf";
+}
+.psi-crane-light:before {
+  content: "\eab0";
+}
+.psi-crane-tower-light:before {
+  content: "\eab1";
+}
+.psi-credit-card-light:before {
+  content: "\eab2";
+}
+.psi-cricket-light:before {
+  content: "\eab3";
+}
+.psi-crop-light:before {
+  content: "\eab4";
+}
+.psi-cross-light:before {
+  content: "\eab5";
+}
+.psi-crosshair-light:before {
+  content: "\eab6";
+}
+.psi-crosshair-simple-light:before {
+  content: "\eab7";
+}
+.psi-crown-cross-light:before {
+  content: "\eab8";
+}
+.psi-crown-simple-light:before {
+  content: "\eab9";
+}
+.psi-cube-focus-light:before {
+  content: "\eaba";
+}
+.psi-cube-light:before {
+  content: "\eabb";
+}
+.psi-cube-transparent-light:before {
+  content: "\eabc";
+}
+.psi-currency-btc-light:before {
+  content: "\eabd";
+}
+.psi-currency-circle-dollar-light:before {
+  content: "\eabe";
+}
+.psi-currency-cny-light:before {
+  content: "\eabf";
+}
+.psi-currency-dollar-light:before {
+  content: "\eac0";
+}
+.psi-currency-dollar-simple-light:before {
+  content: "\eac1";
+}
+.psi-currency-eth-light:before {
+  content: "\eac2";
+}
+.psi-currency-gbp-light:before {
+  content: "\eac3";
+}
+.psi-currency-inr-light:before {
+  content: "\eac4";
+}
+.psi-currency-jpy-light:before {
+  content: "\eac5";
+}
+.psi-currency-krw-light:before {
+  content: "\eac6";
+}
+.psi-currency-kzt-light:before {
+  content: "\eac7";
+}
+.psi-currency-ngn-light:before {
+  content: "\eac8";
+}
+.psi-currency-rub-light:before {
+  content: "\eac9";
+}
+.psi-cursor-click-light:before {
+  content: "\eaca";
+}
+.psi-cursor-light:before {
+  content: "\eacb";
+}
+.psi-cursor-text-light:before {
+  content: "\eacc";
+}
+.psi-cylinder-light:before {
+  content: "\eacd";
+}
+.psi-database-light:before {
+  content: "\eace";
+}
+.psi-desk-light:before {
+  content: "\eacf";
+}
+.psi-desktop-light:before {
+  content: "\ead0";
+}
+.psi-desktop-tower-light:before {
+  content: "\ead1";
+}
+.psi-detective-light:before {
+  content: "\ead2";
+}
+.psi-dev-to-logo-light:before {
+  content: "\ead3";
+}
+.psi-device-mobile-camera-light:before {
+  content: "\ead4";
+}
+.psi-device-mobile-light:before {
+  content: "\ead5";
+}
+.psi-device-mobile-slash-light:before {
+  content: "\ead6";
+}
+.psi-device-mobile-speaker-light:before {
+  content: "\ead7";
+}
+.psi-device-rotate-light:before {
+  content: "\ead8";
+}
+.psi-device-tablet-camera-light:before {
+  content: "\ead9";
+}
+.psi-device-tablet-light:before {
+  content: "\eada";
+}
+.psi-device-tablet-speaker-light:before {
+  content: "\eadb";
+}
+.psi-devices-light:before {
+  content: "\eadc";
+}
+.psi-diamond-light:before {
+  content: "\eadd";
+}
+.psi-diamonds-four-light:before {
+  content: "\eade";
+}
+.psi-dice-five-light:before {
+  content: "\eadf";
+}
+.psi-dice-four-light:before {
+  content: "\eae0";
+}
+.psi-dice-one-light:before {
+  content: "\eae1";
+}
+.psi-dice-six-light:before {
+  content: "\eae2";
+}
+.psi-dice-three-light:before {
+  content: "\eae3";
+}
+.psi-dice-two-light:before {
+  content: "\eae4";
+}
+.psi-disc-light:before {
+  content: "\eae5";
+}
+.psi-disco-ball-light:before {
+  content: "\eae6";
+}
+.psi-divide-light:before {
+  content: "\eae7";
+}
+.psi-dna-light:before {
+  content: "\eae8";
+}
+.psi-dog-light:before {
+  content: "\eae9";
+}
+.psi-door-light:before {
+  content: "\eaea";
+}
+.psi-door-open-light:before {
+  content: "\eaeb";
+}
+.psi-dot-light:before {
+  content: "\eaec";
+}
+.psi-dot-outline-light:before {
+  content: "\eaed";
+}
+.psi-dots-nine-light:before {
+  content: "\eaee";
+}
+.psi-dots-six-light:before {
+  content: "\eaef";
+}
+.psi-dots-six-vertical-light:before {
+  content: "\eaf0";
+}
+.psi-dots-three-circle-light:before {
+  content: "\eaf1";
+}
+.psi-dots-three-circle-vertical-light:before {
+  content: "\eaf2";
+}
+.psi-dots-three-light:before {
+  content: "\eaf3";
+}
+.psi-dots-three-outline-light:before {
+  content: "\eaf4";
+}
+.psi-dots-three-outline-vertical-light:before {
+  content: "\eaf5";
+}
+.psi-dots-three-vertical-light:before {
+  content: "\eaf6";
+}
+.psi-download-light:before {
+  content: "\eaf7";
+}
+.psi-download-simple-light:before {
+  content: "\eaf8";
+}
+.psi-dress-light:before {
+  content: "\eaf9";
+}
+.psi-dresser-light:before {
+  content: "\eafa";
+}
+.psi-drone-light:before {
+  content: "\eafb";
+}
+.psi-drop-half-bottom-light:before {
+  content: "\eafc";
+}
+.psi-drop-half-light:before {
+  content: "\eafd";
+}
+.psi-drop-light:before {
+  content: "\eafe";
+}
+.psi-drop-simple-light:before {
+  content: "\eaff";
+}
+.psi-dropbox-logo-light:before {
+  content: "\eb00";
+}
+.psi-ear-slash-light:before {
+  content: "\eb01";
+}
+.psi-egg-crack-light:before {
+  content: "\eb02";
+}
+.psi-egg-light:before {
+  content: "\eb03";
+}
+.psi-eject-light:before {
+  content: "\eb04";
+}
+.psi-eject-simple-light:before {
+  content: "\eb05";
+}
+.psi-elevator-light:before {
+  content: "\eb06";
+}
+.psi-empty-light:before {
+  content: "\eb07";
+}
+.psi-envelope-light:before {
+  content: "\eb08";
+}
+.psi-envelope-open-light:before {
+  content: "\eb09";
+}
+.psi-envelope-simple-light:before {
+  content: "\eb0a";
+}
+.psi-envelope-simple-open-light:before {
+  content: "\eb0b";
+}
+.psi-equals-light:before {
+  content: "\eb0d";
+}
+.psi-escalator-down-light:before {
+  content: "\eb0e";
+}
+.psi-escalator-up-light:before {
+  content: "\eb0f";
+}
+.psi-exam-light:before {
+  content: "\eb10";
+}
+.psi-exclamation-mark-light:before {
+  content: "\eb11";
+}
+.psi-exclude-light:before {
+  content: "\eb12";
+}
+.psi-exclude-square-light:before {
+  content: "\eb13";
+}
+.psi-export-light:before {
+  content: "\eb14";
+}
+.psi-eye-closed-light:before {
+  content: "\eb15";
+}
+.psi-eye-light:before {
+  content: "\eb16";
+}
+.psi-eye-slash-light:before {
+  content: "\eb17";
+}
+.psi-eyedropper-light:before {
+  content: "\eb18";
+}
+.psi-eyedropper-sample-light:before {
+  content: "\eb19";
+}
+.psi-eyeglasses-light:before {
+  content: "\eb1a";
+}
+.psi-eyes-light:before {
+  content: "\eb1b";
+}
+.psi-face-mask-light:before {
+  content: "\eb1c";
+}
+.psi-facebook-logo-light:before {
+  content: "\eb1d";
+}
+.psi-factory-light:before {
+  content: "\eb1e";
+}
+.psi-faders-horizontal-light:before {
+  content: "\eb1f";
+}
+.psi-faders-light:before {
+  content: "\eb20";
+}
+.psi-fallout-shelter-light:before {
+  content: "\eb21";
+}
+.psi-fan-light:before {
+  content: "\eb22";
+}
+.psi-farm-light:before {
+  content: "\eb23";
+}
+.psi-fast-forward-circle-light:before {
+  content: "\eb24";
+}
+.psi-fast-forward-light:before {
+  content: "\eb25";
+}
+.psi-feather-light:before {
+  content: "\eb26";
+}
+.psi-figma-logo-light:before {
+  content: "\eb28";
+}
+.psi-file-archive-light:before {
+  content: "\eb29";
+}
+.psi-file-arrow-down-light:before {
+  content: "\eb2a";
+}
+.psi-file-arrow-up-light:before {
+  content: "\eb2b";
+}
+.psi-file-audio-light:before {
+  content: "\eb2c";
+}
+.psi-file-c-light:before {
+  content: "\eb2d";
+}
+.psi-file-c-sharp-light:before {
+  content: "\eb2e";
+}
+.psi-file-cloud-light:before {
+  content: "\eb2f";
+}
+.psi-file-code-light:before {
+  content: "\eb30";
+}
+.psi-file-cpp-light:before {
+  content: "\eb31";
+}
+.psi-file-dashed-light:before {
+  content: "\eb32";
+}
+.psi-file-doc-light:before {
+  content: "\eb33";
+}
+.psi-file-html-light:before {
+  content: "\eb34";
+}
+.psi-file-image-light:before {
+  content: "\eb35";
+}
+.psi-file-ini-light:before {
+  content: "\eb36";
+}
+.psi-file-jpg-light:before {
+  content: "\eb37";
+}
+.psi-file-light:before {
+  content: "\eb38";
+}
+.psi-file-lock-light:before {
+  content: "\eb39";
+}
+.psi-file-magnifying-glass-light:before {
+  content: "\eb3a";
+}
+.psi-file-md-light:before {
+  content: "\eb3b";
+}
+.psi-file-minus-light:before {
+  content: "\eb3c";
+}
+.psi-file-pdf-light:before {
+  content: "\eb3d";
+}
+.psi-file-plus-light:before {
+  content: "\eb3e";
+}
+.psi-file-png-light:before {
+  content: "\eb3f";
+}
+.psi-file-ppt-light:before {
+  content: "\eb40";
+}
+.psi-file-py-light:before {
+  content: "\eb41";
+}
+.psi-file-text-light:before {
+  content: "\eb42";
+}
+.psi-file-txt-light:before {
+  content: "\eb43";
+}
+.psi-file-video-light:before {
+  content: "\eb44";
+}
+.psi-file-vue-light:before {
+  content: "\eb45";
+}
+.psi-file-x-light:before {
+  content: "\eb46";
+}
+.psi-file-xls-light:before {
+  content: "\eb47";
+}
+.psi-file-zip-light:before {
+  content: "\eb48";
+}
+.psi-files-light:before {
+  content: "\eb49";
+}
+.psi-film-reel-light:before {
+  content: "\eb4a";
+}
+.psi-film-script-light:before {
+  content: "\eb4b";
+}
+.psi-film-slate-light:before {
+  content: "\eb4c";
+}
+.psi-film-strip-light:before {
+  content: "\eb4d";
+}
+.psi-fingerprint-light:before {
+  content: "\eb4e";
+}
+.psi-finn-the-human-light:before {
+  content: "\eb4f";
+}
+.psi-fire-extinguisher-light:before {
+  content: "\eb50";
+}
+.psi-fire-light:before {
+  content: "\eb51";
+}
+.psi-fire-simple-light:before {
+  content: "\eb52";
+}
+.psi-fire-truck-light:before {
+  content: "\eb53";
+}
+.psi-first-aid-kit-light:before {
+  content: "\eb54";
+}
+.psi-first-aid-light:before {
+  content: "\eb55";
+}
+.psi-fish-light:before {
+  content: "\eb56";
+}
+.psi-fish-simple-light:before {
+  content: "\eb57";
+}
+.psi-flag-banner-fold-light:before {
+  content: "\eb58";
+}
+.psi-flag-banner-light:before {
+  content: "\eb59";
+}
+.psi-flag-checkered-light:before {
+  content: "\eb5a";
+}
+.psi-flag-light:before {
+  content: "\eb5b";
+}
+.psi-flag-pennant-light:before {
+  content: "\eb5c";
+}
+.psi-flame-light:before {
+  content: "\eb5d";
+}
+.psi-flashlight-light:before {
+  content: "\eb5e";
+}
+.psi-flask-light:before {
+  content: "\eb5f";
+}
+.psi-flip-horizontal-light:before {
+  content: "\eb60";
+}
+.psi-flip-vertical-light:before {
+  content: "\eb61";
+}
+.psi-floppy-disk-back-light:before {
+  content: "\eb62";
+}
+.psi-flow-arrow-light:before {
+  content: "\eb63";
+}
+.psi-flower-light:before {
+  content: "\eb64";
+}
+.psi-flower-lotus-light:before {
+  content: "\eb65";
+}
+.psi-flower-tulip-light:before {
+  content: "\eb66";
+}
+.psi-folder-dashed-light:before {
+  content: "\eb67";
+}
+.psi-folder-light:before {
+  content: "\eb68";
+}
+.psi-folder-lock-light:before {
+  content: "\eb69";
+}
+.psi-folder-minus-light:before {
+  content: "\eb6a";
+}
+.psi-folder-open-light:before {
+  content: "\eb6b";
+}
+.psi-folder-plus-light:before {
+  content: "\eb6c";
+}
+.psi-folder-simple-dashed-light:before {
+  content: "\eb6d";
+}
+.psi-folder-simple-light:before {
+  content: "\eb6e";
+}
+.psi-folder-simple-lock-light:before {
+  content: "\eb6f";
+}
+.psi-folder-simple-minus-light:before {
+  content: "\eb70";
+}
+.psi-folder-simple-plus-light:before {
+  content: "\eb71";
+}
+.psi-folder-simple-star-light:before {
+  content: "\eb72";
+}
+.psi-folder-simple-user-light:before {
+  content: "\eb73";
+}
+.psi-folder-star-light:before {
+  content: "\eb74";
+}
+.psi-folder-user-light:before {
+  content: "\eb75";
+}
+.psi-folders-light:before {
+  content: "\eb76";
+}
+.psi-football-helmet-light:before {
+  content: "\eb77";
+}
+.psi-football-light:before {
+  content: "\eb78";
+}
+.psi-footprints-light:before {
+  content: "\eb79";
+}
+.psi-fork-knife-light:before {
+  content: "\eb7a";
+}
+.psi-four-k-light:before {
+  content: "\eb7b";
+}
+.psi-frame-corners-light:before {
+  content: "\eb7c";
+}
+.psi-framer-logo-light:before {
+  content: "\eb7d";
+}
+.psi-function-light:before {
+  content: "\eb7e";
+}
+.psi-funnel-simple-light:before {
+  content: "\eb7f";
+}
+.psi-funnel-simple-x-light:before {
+  content: "\eb80";
+}
+.psi-game-controller-light:before {
+  content: "\eb81";
+}
+.psi-gas-can-light:before {
+  content: "\eb82";
+}
+.psi-gas-pump-light:before {
+  content: "\eb83";
+}
+.psi-gauge-light:before {
+  content: "\eb84";
+}
+.psi-gavel-light:before {
+  content: "\eb85";
+}
+.psi-gear-fine-light:before {
+  content: "\eb86";
+}
+.psi-gear-light:before {
+  content: "\eb87";
+}
+.psi-gear-six-light:before {
+  content: "\eb88";
+}
+.psi-gender-female-light:before {
+  content: "\eb89";
+}
+.psi-gender-intersex-light:before {
+  content: "\eb8a";
+}
+.psi-gender-male-light:before {
+  content: "\eb8b";
+}
+.psi-gender-neuter-light:before {
+  content: "\eb8c";
+}
+.psi-gender-nonbinary-light:before {
+  content: "\eb8d";
+}
+.psi-gender-transgender-light:before {
+  content: "\eb8e";
+}
+.psi-ghost-light:before {
+  content: "\eb8f";
+}
+.psi-gif-light:before {
+  content: "\eb90";
+}
+.psi-gift-light:before {
+  content: "\eb91";
+}
+.psi-git-branch-light:before {
+  content: "\eb92";
+}
+.psi-git-commit-light:before {
+  content: "\eb93";
+}
+.psi-git-diff-light:before {
+  content: "\eb94";
+}
+.psi-git-fork-light:before {
+  content: "\eb95";
+}
+.psi-git-merge-light:before {
+  content: "\eb96";
+}
+.psi-git-pull-request-light:before {
+  content: "\eb97";
+}
+.psi-github-logo-light:before {
+  content: "\eb98";
+}
+.psi-globe-hemisphere-east-light:before {
+  content: "\eb99";
+}
+.psi-globe-light:before {
+  content: "\eb9a";
+}
+.psi-globe-simple-light:before {
+  content: "\eb9b";
+}
+.psi-globe-simple-x-light:before {
+  content: "\eb9c";
+}
+.psi-globe-stand-light:before {
+  content: "\eb9d";
+}
+.psi-globe-x-light:before {
+  content: "\eb9e";
+}
+.psi-goggles-light:before {
+  content: "\eb9f";
+}
+.psi-golf-light:before {
+  content: "\eba0";
+}
+.psi-goodreads-logo-light:before {
+  content: "\eba1";
+}
+.psi-google-cardboard-logo-light:before {
+  content: "\eba2";
+}
+.psi-google-chrome-logo-light:before {
+  content: "\eba3";
+}
+.psi-google-logo-light:before {
+  content: "\eba4";
+}
+.psi-google-photos-logo-light:before {
+  content: "\eba5";
+}
+.psi-google-play-logo-light:before {
+  content: "\eba6";
+}
+.psi-google-podcasts-logo-light:before {
+  content: "\eba7";
+}
+.psi-gps-fix-light:before {
+  content: "\eba8";
+}
+.psi-gps-light:before {
+  content: "\eba9";
+}
+.psi-gps-slash-light:before {
+  content: "\ebaa";
+}
+.psi-gradient-light:before {
+  content: "\ebab";
+}
+.psi-graduation-cap-light:before {
+  content: "\ebac";
+}
+.psi-grains-light:before {
+  content: "\ebad";
+}
+.psi-grains-slash-light:before {
+  content: "\ebae";
+}
+.psi-graph-light:before {
+  content: "\ebaf";
+}
+.psi-graphics-card-light:before {
+  content: "\ebb0";
+}
+.psi-greater-than-light:before {
+  content: "\ebb1";
+}
+.psi-greater-than-or-equal-light:before {
+  content: "\ebb2";
+}
+.psi-grid-four-light:before {
+  content: "\ebb3";
+}
+.psi-grid-nine-light:before {
+  content: "\ebb4";
+}
+.psi-hair-dryer-light:before {
+  content: "\ebb5";
+}
+.psi-hamburger-light:before {
+  content: "\ebb6";
+}
+.psi-hammer-light:before {
+  content: "\ebb7";
+}
+.psi-hand-arrow-down-light:before {
+  content: "\ebb8";
+}
+.psi-hand-arrow-up-light:before {
+  content: "\ebb9";
+}
+.psi-hand-coins-light:before {
+  content: "\ebba";
+}
+.psi-hand-deposit-light:before {
+  content: "\ebbb";
+}
+.psi-hand-eye-light:before {
+  content: "\ebbc";
+}
+.psi-hand-fist-light:before {
+  content: "\ebbd";
+}
+.psi-hand-grabbing-light:before {
+  content: "\ebbe";
+}
+.psi-hand-heart-light:before {
+  content: "\ebbf";
+}
+.psi-hand-light:before {
+  content: "\ebc0";
+}
+.psi-hand-palm-light:before {
+  content: "\ebc1";
+}
+.psi-hand-peace-light:before {
+  content: "\ebc2";
+}
+.psi-hand-pointing-light:before {
+  content: "\ebc3";
+}
+.psi-hand-soap-light:before {
+  content: "\ebc4";
+}
+.psi-hand-waving-light:before {
+  content: "\ebc5";
+}
+.psi-hand-withdraw-light:before {
+  content: "\ebc6";
+}
+.psi-handbag-light:before {
+  content: "\ebc7";
+}
+.psi-handbag-simple-light:before {
+  content: "\ebc8";
+}
+.psi-hands-clapping-light:before {
+  content: "\ebc9";
+}
+.psi-hands-praying-light:before {
+  content: "\ebca";
+}
+.psi-handshake-light:before {
+  content: "\ebcb";
+}
+.psi-hard-drive-light:before {
+  content: "\ebcc";
+}
+.psi-hard-drives-light:before {
+  content: "\ebcd";
+}
+.psi-hard-hat-light:before {
+  content: "\ebce";
+}
+.psi-hash-light:before {
+  content: "\ebcf";
+}
+.psi-hash-straight-light:before {
+  content: "\ebd0";
+}
+.psi-head-circuit-light:before {
+  content: "\ebd1";
+}
+.psi-headlights-light:before {
+  content: "\ebd2";
+}
+.psi-headphones-light:before {
+  content: "\ebd3";
+}
+.psi-headset-light:before {
+  content: "\ebd4";
+}
+.psi-heart-half-light:before {
+  content: "\ebd5";
+}
+.psi-heart-light:before {
+  content: "\ebd6";
+}
+.psi-heart-straight-break-light:before {
+  content: "\ebd7";
+}
+.psi-heart-straight-light:before {
+  content: "\ebd8";
+}
+.psi-heartbeat-light:before {
+  content: "\ebd9";
+}
+.psi-high-definition-light:before {
+  content: "\ebda";
+}
+.psi-high-heel-light:before {
+  content: "\ebdb";
+}
+.psi-highlighter-circle-light:before {
+  content: "\ebdc";
+}
+.psi-highlighter-light:before {
+  content: "\ebdd";
+}
+.psi-hockey-light:before {
+  content: "\ebde";
+}
+.psi-hoodie-light:before {
+  content: "\ebdf";
+}
+.psi-hospital-light:before {
+  content: "\ebe0";
+}
+.psi-hourglass-high-light:before {
+  content: "\ebe1";
+}
+.psi-hourglass-light:before {
+  content: "\ebe2";
+}
+.psi-hourglass-low-light:before {
+  content: "\ebe3";
+}
+.psi-hourglass-medium-light:before {
+  content: "\ebe4";
+}
+.psi-hourglass-simple-high-light:before {
+  content: "\ebe5";
+}
+.psi-hourglass-simple-light:before {
+  content: "\ebe6";
+}
+.psi-hourglass-simple-low-light:before {
+  content: "\ebe7";
+}
+.psi-hourglass-simple-medium-light:before {
+  content: "\ebe8";
+}
+.psi-house-light:before {
+  content: "\ebe9";
+}
+.psi-house-line-light:before {
+  content: "\ebea";
+}
+.psi-house-simple-light:before {
+  content: "\ebeb";
+}
+.psi-ice-cream-light:before {
+  content: "\ebec";
+}
+.psi-identification-badge-light:before {
+  content: "\ebed";
+}
+.psi-identification-card-light:before {
+  content: "\ebee";
+}
+.psi-image-broken-light:before {
+  content: "\ebef";
+}
+.psi-image-light:before {
+  content: "\ebf0";
+}
+.psi-image-square-light:before {
+  content: "\ebf1";
+}
+.psi-images-light:before {
+  content: "\ebf2";
+}
+.psi-images-square-light:before {
+  content: "\ebf3";
+}
+.psi-infinity-light:before {
+  content: "\ebf4";
+}
+.psi-info-light:before {
+  content: "\ebf5";
+}
+.psi-instagram-logo-light:before {
+  content: "\ebf6";
+}
+.psi-intersect-light:before {
+  content: "\ebf7";
+}
+.psi-intersect-square-light:before {
+  content: "\ebf8";
+}
+.psi-intersect-three-light:before {
+  content: "\ebf9";
+}
+.psi-intersection-light:before {
+  content: "\ebfa";
+}
+.psi-invoice-light:before {
+  content: "\ebfb";
+}
+.psi-island-light:before {
+  content: "\ebfc";
+}
+.psi-jar-label-light:before {
+  content: "\ebfd";
+}
+.psi-jar-light:before {
+  content: "\ebfe";
+}
+.psi-jeep-light:before {
+  content: "\ebff";
+}
+.psi-joystick-light:before {
+  content: "\ec00";
+}
+.psi-kanban-light:before {
+  content: "\ec01";
+}
+.psi-key-light:before {
+  content: "\ec02";
+}
+.psi-key-return-light:before {
+  content: "\ec03";
+}
+.psi-keyboard-light:before {
+  content: "\ec04";
+}
+.psi-keyhole-light:before {
+  content: "\ec05";
+}
+.psi-knife-light:before {
+  content: "\ec06";
+}
+.psi-ladder-light:before {
+  content: "\ec07";
+}
+.psi-ladder-simple-light:before {
+  content: "\ec08";
+}
+.psi-lamp-light:before {
+  content: "\ec09";
+}
+.psi-lamp-pendant-light:before {
+  content: "\ec0a";
+}
+.psi-laptop-light:before {
+  content: "\ec0b";
+}
+.psi-lasso-light:before {
+  content: "\ec0c";
+}
+.psi-lastfm-logo-light:before {
+  content: "\ec0d";
+}
+.psi-layout-light:before {
+  content: "\ec0e";
+}
+.psi-leaf-light:before {
+  content: "\ec0f";
+}
+.psi-lego-light:before {
+  content: "\ec10";
+}
+.psi-lego-smiley-light:before {
+  content: "\ec11";
+}
+.psi-less-than-light:before {
+  content: "\ec12";
+}
+.psi-less-than-or-equal-light:before {
+  content: "\ec13";
+}
+.psi-letter-circle-h-light:before {
+  content: "\ec14";
+}
+.psi-letter-circle-p-light:before {
+  content: "\ec15";
+}
+.psi-letter-circle-v-light:before {
+  content: "\ec16";
+}
+.psi-lifebuoy-light:before {
+  content: "\ec17";
+}
+.psi-lightbulb-filament-light:before {
+  content: "\ec18";
+}
+.psi-lightbulb-light:before {
+  content: "\ec19";
+}
+.psi-lighthouse-light:before {
+  content: "\ec1a";
+}
+.psi-lightning-a-light:before {
+  content: "\ec1b";
+}
+.psi-lightning-light:before {
+  content: "\ec1c";
+}
+.psi-lightning-slash-light:before {
+  content: "\ec1d";
+}
+.psi-line-segment-light:before {
+  content: "\ec1e";
+}
+.psi-line-segments-light:before {
+  content: "\ec1f";
+}
+.psi-line-vertical-light:before {
+  content: "\ec20";
+}
+.psi-link-break-light:before {
+  content: "\ec21";
+}
+.psi-link-simple-break-light:before {
+  content: "\ec22";
+}
+.psi-link-simple-horizontal-break-light:before {
+  content: "\ec23";
+}
+.psi-link-simple-horizontal-light:before {
+  content: "\ec24";
+}
+.psi-link-simple-light:before {
+  content: "\ec25";
+}
+.psi-linkedin-logo-light:before {
+  content: "\ec26";
+}
+.psi-linktree-logo-light:before {
+  content: "\ec27";
+}
+.psi-linux-logo-light:before {
+  content: "\ec28";
+}
+.psi-list-bullets-light:before {
+  content: "\ec29";
+}
+.psi-list-checks-light:before {
+  content: "\ec2a";
+}
+.psi-list-dashes-light:before {
+  content: "\ec2b";
+}
+.psi-list-heart-light:before {
+  content: "\ec2c";
+}
+.psi-list-light:before {
+  content: "\ec2d";
+}
+.psi-list-magnifying-glass-light:before {
+  content: "\ec2e";
+}
+.psi-list-numbers-light:before {
+  content: "\ec2f";
+}
+.psi-list-plus-light:before {
+  content: "\ec30";
+}
+.psi-list-star-light:before {
+  content: "\ec31";
+}
+.psi-lock-key-light:before {
+  content: "\ec32";
+}
+.psi-lock-key-open-light:before {
+  content: "\ec33";
+}
+.psi-lock-laminated-light:before {
+  content: "\ec34";
+}
+.psi-lock-laminated-open-light:before {
+  content: "\ec35";
+}
+.psi-lock-light:before {
+  content: "\ec36";
+}
+.psi-lock-open-light:before {
+  content: "\ec37";
+}
+.psi-lock-simple-light:before {
+  content: "\ec38";
+}
+.psi-lock-simple-open-light:before {
+  content: "\ec39";
+}
+.psi-lockers-light:before {
+  content: "\ec3a";
+}
+.psi-log-light:before {
+  content: "\ec3b";
+}
+.psi-magic-wand-light:before {
+  content: "\ec3c";
+}
+.psi-magnet-straight-light:before {
+  content: "\ec3d";
+}
+.psi-magnifying-glass-light:before {
+  content: "\ec3e";
+}
+.psi-magnifying-glass-minus-light:before {
+  content: "\ec3f";
+}
+.psi-magnifying-glass-plus-light:before {
+  content: "\ec40";
+}
+.psi-mailbox-light:before {
+  content: "\ec41";
+}
+.psi-map-pin-area-light:before {
+  content: "\ec42";
+}
+.psi-map-pin-light:before {
+  content: "\ec43";
+}
+.psi-map-pin-line-light:before {
+  content: "\ec44";
+}
+.psi-map-pin-plus-light:before {
+  content: "\ec45";
+}
+.psi-map-pin-simple-area-light:before {
+  content: "\ec46";
+}
+.psi-map-pin-simple-light:before {
+  content: "\ec47";
+}
+.psi-map-pin-simple-line-light:before {
+  content: "\ec48";
+}
+.psi-map-trifold-light:before {
+  content: "\ec49";
+}
+.psi-markdown-logo-light:before {
+  content: "\ec4a";
+}
+.psi-marker-circle-light:before {
+  content: "\ec4b";
+}
+.psi-martini-light:before {
+  content: "\ec4c";
+}
+.psi-mask-happy-light:before {
+  content: "\ec4d";
+}
+.psi-mask-sad-light:before {
+  content: "\ec4e";
+}
+.psi-mastodon-logo-light:before {
+  content: "\ec4f";
+}
+.psi-math-operations-light:before {
+  content: "\ec50";
+}
+.psi-matrix-logo-light:before {
+  content: "\ec51";
+}
+.psi-medal-light:before {
+  content: "\ec52";
+}
+.psi-medal-military-light:before {
+  content: "\ec53";
+}
+.psi-medium-logo-light:before {
+  content: "\ec54";
+}
+.psi-megaphone-light:before {
+  content: "\ec55";
+}
+.psi-megaphone-simple-light:before {
+  content: "\ec56";
+}
+.psi-member-of-light:before {
+  content: "\ec57";
+}
+.psi-memory-light:before {
+  content: "\ec58";
+}
+.psi-messenger-logo-light:before {
+  content: "\ec59";
+}
+.psi-meta-logo-light:before {
+  content: "\ec5a";
+}
+.psi-meteor-light:before {
+  content: "\ec5b";
+}
+.psi-microphone-light:before {
+  content: "\ec5c";
+}
+.psi-microphone-slash-light:before {
+  content: "\ec5d";
+}
+.psi-microphone-stage-light:before {
+  content: "\ec5e";
+}
+.psi-microscope-light:before {
+  content: "\ec5f";
+}
+.psi-microsoft-excel-logo-light:before {
+  content: "\ec60";
+}
+.psi-microsoft-outlook-logo-light:before {
+  content: "\ec61";
+}
+.psi-microsoft-powerpoint-logo-light:before {
+  content: "\ec62";
+}
+.psi-microsoft-word-logo-light:before {
+  content: "\ec63";
+}
+.psi-minus-circle-light:before {
+  content: "\ec64";
+}
+.psi-minus-light:before {
+  content: "\ec65";
+}
+.psi-minus-square-light:before {
+  content: "\ec66";
+}
+.psi-money-light:before {
+  content: "\ec67";
+}
+.psi-money-wavy-light:before {
+  content: "\ec68";
+}
+.psi-monitor-arrow-up-light:before {
+  content: "\ec69";
+}
+.psi-monitor-light:before {
+  content: "\ec6a";
+}
+.psi-monitor-play-light:before {
+  content: "\ec6b";
+}
+.psi-moon-light:before {
+  content: "\ec6c";
+}
+.psi-moon-stars-light:before {
+  content: "\ec6d";
+}
+.psi-moped-front-light:before {
+  content: "\ec6e";
+}
+.psi-moped-light:before {
+  content: "\ec6f";
+}
+.psi-mosque-light:before {
+  content: "\ec70";
+}
+.psi-motorcycle-light:before {
+  content: "\ec71";
+}
+.psi-mountains-light:before {
+  content: "\ec72";
+}
+.psi-mouse-left-click-light:before {
+  content: "\ec73";
+}
+.psi-mouse-light:before {
+  content: "\ec74";
+}
+.psi-mouse-middle-click-light:before {
+  content: "\ec75";
+}
+.psi-mouse-right-click-light:before {
+  content: "\ec76";
+}
+.psi-mouse-scroll-light:before {
+  content: "\ec77";
+}
+.psi-mouse-simple-light:before {
+  content: "\ec78";
+}
+.psi-music-note-light:before {
+  content: "\ec79";
+}
+.psi-music-note-simple-light:before {
+  content: "\ec7a";
+}
+.psi-music-notes-light:before {
+  content: "\ec7b";
+}
+.psi-music-notes-minus-light:before {
+  content: "\ec7c";
+}
+.psi-music-notes-plus-light:before {
+  content: "\ec7d";
+}
+.psi-music-notes-simple-light:before {
+  content: "\ec7e";
+}
+.psi-navigation-arrow-light:before {
+  content: "\ec7f";
+}
+.psi-needle-light:before {
+  content: "\ec80";
+}
+.psi-network-light:before {
+  content: "\ec81";
+}
+.psi-network-slash-light:before {
+  content: "\ec82";
+}
+.psi-network-x-light:before {
+  content: "\ec83";
+}
+.psi-newspaper-clipping-light:before {
+  content: "\ec84";
+}
+.psi-newspaper-light:before {
+  content: "\ec85";
+}
+.psi-not-equals-light:before {
+  content: "\ec86";
+}
+.psi-not-member-of-light:before {
+  content: "\ec87";
+}
+.psi-not-subset-of-light:before {
+  content: "\ec88";
+}
+.psi-not-superset-of-light:before {
+  content: "\ec89";
+}
+.psi-notches-light:before {
+  content: "\ec8a";
+}
+.psi-note-pencil-light:before {
+  content: "\ec8b";
+}
+.psi-notebook-light:before {
+  content: "\ec8c";
+}
+.psi-notepad-light:before {
+  content: "\ec8d";
+}
+.psi-notification-light:before {
+  content: "\ec8e";
+}
+.psi-notion-logo-light:before {
+  content: "\ec8f";
+}
+.psi-number-circle-eight-light:before {
+  content: "\ec90";
+}
+.psi-number-circle-five-light:before {
+  content: "\ec91";
+}
+.psi-number-circle-four-light:before {
+  content: "\ec92";
+}
+.psi-number-circle-nine-light:before {
+  content: "\ec93";
+}
+.psi-number-circle-one-light:before {
+  content: "\ec94";
+}
+.psi-number-circle-seven-light:before {
+  content: "\ec95";
+}
+.psi-number-circle-six-light:before {
+  content: "\ec96";
+}
+.psi-number-circle-three-light:before {
+  content: "\ec97";
+}
+.psi-number-circle-two-light:before {
+  content: "\ec98";
+}
+.psi-number-circle-zero-light:before {
+  content: "\ec99";
+}
+.psi-number-eight-light:before {
+  content: "\ec9a";
+}
+.psi-number-five-light:before {
+  content: "\ec9b";
+}
+.psi-number-four-light:before {
+  content: "\ec9c";
+}
+.psi-number-nine-light:before {
+  content: "\ec9d";
+}
+.psi-number-one-light:before {
+  content: "\ec9e";
+}
+.psi-number-seven-light:before {
+  content: "\ec9f";
+}
+.psi-number-six-light:before {
+  content: "\eca0";
+}
+.psi-number-square-eight-light:before {
+  content: "\eca1";
+}
+.psi-number-square-five-light:before {
+  content: "\eca2";
+}
+.psi-number-square-four-light:before {
+  content: "\eca3";
+}
+.psi-number-square-nine-light:before {
+  content: "\eca4";
+}
+.psi-number-square-one-light:before {
+  content: "\eca5";
+}
+.psi-number-square-seven-light:before {
+  content: "\eca6";
+}
+.psi-number-square-six-light:before {
+  content: "\eca7";
+}
+.psi-number-square-three-light:before {
+  content: "\eca8";
+}
+.psi-number-square-two-light:before {
+  content: "\eca9";
+}
+.psi-number-square-zero-light:before {
+  content: "\ecaa";
+}
+.psi-number-three-light:before {
+  content: "\ecab";
+}
+.psi-number-two-light:before {
+  content: "\ecac";
+}
+.psi-number-zero-light:before {
+  content: "\ecad";
+}
+.psi-numpad-light:before {
+  content: "\ecae";
+}
+.psi-nut-light:before {
+  content: "\ecaf";
+}
+.psi-ny-times-logo-light:before {
+  content: "\ecb0";
+}
+.psi-office-chair-light:before {
+  content: "\ecb1";
+}
+.psi-onigiri-light:before {
+  content: "\ecb2";
+}
+.psi-open-ai-logo-light:before {
+  content: "\ecb3";
+}
+.psi-option-light:before {
+  content: "\ecb4";
+}
+.psi-orange-light:before {
+  content: "\ecb5";
+}
+.psi-orange-slice-light:before {
+  content: "\ecb6";
+}
+.psi-oven-light:before {
+  content: "\ecb7";
+}
+.psi-paint-brush-broad-light:before {
+  content: "\ecb8";
+}
+.psi-paint-brush-household-light:before {
+  content: "\ecb9";
+}
+.psi-paint-brush-light:before {
+  content: "\ecba";
+}
+.psi-paint-bucket-light:before {
+  content: "\ecbb";
+}
+.psi-paint-roller-light:before {
+  content: "\ecbc";
+}
+.psi-panorama-light:before {
+  content: "\ecbd";
+}
+.psi-paper-plane-light:before {
+  content: "\ecbe";
+}
+.psi-paper-plane-right-light:before {
+  content: "\ecbf";
+}
+.psi-paper-plane-tilt-light:before {
+  content: "\ecc0";
+}
+.psi-paperclip-horizontal-light:before {
+  content: "\ecc1";
+}
+.psi-paperclip-light:before {
+  content: "\ecc2";
+}
+.psi-parachute-light:before {
+  content: "\ecc3";
+}
+.psi-paragraph-light:before {
+  content: "\ecc4";
+}
+.psi-parallelogram-light:before {
+  content: "\ecc5";
+}
+.psi-park-light:before {
+  content: "\ecc6";
+}
+.psi-password-light:before {
+  content: "\ecc7";
+}
+.psi-path-light:before {
+  content: "\ecc8";
+}
+.psi-patreon-logo-light:before {
+  content: "\ecc9";
+}
+.psi-pause-circle-light:before {
+  content: "\ecca";
+}
+.psi-pause-light:before {
+  content: "\eccb";
+}
+.psi-paw-print-light:before {
+  content: "\eccc";
+}
+.psi-peace-light:before {
+  content: "\eccd";
+}
+.psi-pen-light:before {
+  content: "\ecce";
+}
+.psi-pen-nib-straight-light:before {
+  content: "\eccf";
+}
+.psi-pencil-circle-light:before {
+  content: "\ecd0";
+}
+.psi-pencil-light:before {
+  content: "\ecd1";
+}
+.psi-pencil-line-light:before {
+  content: "\ecd2";
+}
+.psi-pencil-ruler-light:before {
+  content: "\ecd3";
+}
+.psi-pencil-simple-light:before {
+  content: "\ecd4";
+}
+.psi-pencil-simple-line-light:before {
+  content: "\ecd5";
+}
+.psi-pencil-simple-slash-light:before {
+  content: "\ecd6";
+}
+.psi-pencil-slash-light:before {
+  content: "\ecd7";
+}
+.psi-pentagon-light:before {
+  content: "\ecd8";
+}
+.psi-pepper-light:before {
+  content: "\ecd9";
+}
+.psi-percent-light:before {
+  content: "\ecda";
+}
+.psi-person-arms-spread-light:before {
+  content: "\ecdb";
+}
+.psi-person-light:before {
+  content: "\ecdc";
+}
+.psi-person-simple-bike-light:before {
+  content: "\ecdd";
+}
+.psi-person-simple-circle-light:before {
+  content: "\ecde";
+}
+.psi-person-simple-hike-light:before {
+  content: "\ecdf";
+}
+.psi-person-simple-light:before {
+  content: "\ece0";
+}
+.psi-person-simple-run-light:before {
+  content: "\ece1";
+}
+.psi-person-simple-ski-light:before {
+  content: "\ece2";
+}
+.psi-person-simple-snowboard-light:before {
+  content: "\ece3";
+}
+.psi-person-simple-swim-light:before {
+  content: "\ece4";
+}
+.psi-person-simple-tai-chi-light:before {
+  content: "\ece5";
+}
+.psi-person-simple-throw-light:before {
+  content: "\ece6";
+}
+.psi-phone-disconnect-light:before {
+  content: "\ece7";
+}
+.psi-phone-slash-light:before {
+  content: "\ece8";
+}
+.psi-phosphor-logo-light:before {
+  content: "\ece9";
+}
+.psi-pi-light:before {
+  content: "\ecea";
+}
+.psi-piano-keys-light:before {
+  content: "\eceb";
+}
+.psi-picnic-table-light:before {
+  content: "\ecec";
+}
+.psi-picture-in-picture-light:before {
+  content: "\eced";
+}
+.psi-pill-light:before {
+  content: "\ecee";
+}
+.psi-ping-pong-light:before {
+  content: "\ecef";
+}
+.psi-pinwheel-light:before {
+  content: "\ecf0";
+}
+.psi-pipe-light:before {
+  content: "\ecf1";
+}
+.psi-pipe-wrench-light:before {
+  content: "\ecf2";
+}
+.psi-pix-logo-light:before {
+  content: "\ecf3";
+}
+.psi-pizza-light:before {
+  content: "\ecf4";
+}
+.psi-placeholder-light:before {
+  content: "\ecf5";
+}
+.psi-planet-light:before {
+  content: "\ecf6";
+}
+.psi-plant-light:before {
+  content: "\ecf7";
+}
+.psi-play-circle-light:before {
+  content: "\ecf8";
+}
+.psi-play-light:before {
+  content: "\ecf9";
+}
+.psi-play-pause-light:before {
+  content: "\ecfa";
+}
+.psi-playlist-light:before {
+  content: "\ecfb";
+}
+.psi-plug-charging-light:before {
+  content: "\ecfc";
+}
+.psi-plug-light:before {
+  content: "\ecfd";
+}
+.psi-plugs-connected-light:before {
+  content: "\ecfe";
+}
+.psi-plugs-light:before {
+  content: "\ecff";
+}
+.psi-plus-circle-light:before {
+  content: "\ed00";
+}
+.psi-plus-light:before {
+  content: "\ed01";
+}
+.psi-plus-minus-light:before {
+  content: "\ed02";
+}
+.psi-plus-square-light:before {
+  content: "\ed03";
+}
+.psi-poker-chip-light:before {
+  content: "\ed04";
+}
+.psi-polygon-light:before {
+  content: "\ed05";
+}
+.psi-popsicle-light:before {
+  content: "\ed06";
+}
+.psi-power-light:before {
+  content: "\ed07";
+}
+.psi-prescription-light:before {
+  content: "\ed08";
+}
+.psi-presentation-chart-light:before {
+  content: "\ed09";
+}
+.psi-presentation-light:before {
+  content: "\ed0a";
+}
+.psi-printer-light:before {
+  content: "\ed0b";
+}
+.psi-prohibit-inset-light:before {
+  content: "\ed0c";
+}
+.psi-prohibit-light:before {
+  content: "\ed0d";
+}
+.psi-projector-screen-chart-light:before {
+  content: "\ed0e";
+}
+.psi-projector-screen-light:before {
+  content: "\ed0f";
+}
+.psi-pulse-light:before {
+  content: "\ed10";
+}
+.psi-push-pin-simple-light:before {
+  content: "\ed11";
+}
+.psi-push-pin-simple-slash-light:before {
+  content: "\ed12";
+}
+.psi-push-pin-slash-light:before {
+  content: "\ed13";
+}
+.psi-puzzle-piece-light:before {
+  content: "\ed14";
+}
+.psi-qr-code-light:before {
+  content: "\ed15";
+}
+.psi-question-light:before {
+  content: "\ed16";
+}
+.psi-question-mark-light:before {
+  content: "\ed17";
+}
+.psi-queue-light:before {
+  content: "\ed18";
+}
+.psi-quotes-light:before {
+  content: "\ed19";
+}
+.psi-rabbit-light:before {
+  content: "\ed1a";
+}
+.psi-racquet-light:before {
+  content: "\ed1b";
+}
+.psi-radical-light:before {
+  content: "\ed1c";
+}
+.psi-radio-button-light:before {
+  content: "\ed1d";
+}
+.psi-radio-light:before {
+  content: "\ed1e";
+}
+.psi-radioactive-light:before {
+  content: "\ed1f";
+}
+.psi-rainbow-cloud-light:before {
+  content: "\ed20";
+}
+.psi-rainbow-light:before {
+  content: "\ed21";
+}
+.psi-ranking-light:before {
+  content: "\ed22";
+}
+.psi-read-cv-logo-light:before {
+  content: "\ed23";
+}
+.psi-receipt-light:before {
+  content: "\ed24";
+}
+.psi-receipt-x-light:before {
+  content: "\ed25";
+}
+.psi-record-light:before {
+  content: "\ed26";
+}
+.psi-rectangle-dashed-light:before {
+  content: "\ed27";
+}
+.psi-rectangle-light:before {
+  content: "\ed28";
+}
+.psi-recycle-light:before {
+  content: "\ed29";
+}
+.psi-repeat-light:before {
+  content: "\ed2a";
+}
+.psi-repeat-once-light:before {
+  content: "\ed2b";
+}
+.psi-replit-logo-light:before {
+  content: "\ed2c";
+}
+.psi-resize-light:before {
+  content: "\ed2d";
+}
+.psi-rewind-circle-light:before {
+  content: "\ed2e";
+}
+.psi-rewind-light:before {
+  content: "\ed2f";
+}
+.psi-road-horizon-light:before {
+  content: "\ed30";
+}
+.psi-robot-light:before {
+  content: "\ed31";
+}
+.psi-rocket-launch-light:before {
+  content: "\ed32";
+}
+.psi-rocket-light:before {
+  content: "\ed33";
+}
+.psi-rows-light:before {
+  content: "\ed34";
+}
+.psi-rows-plus-bottom-light:before {
+  content: "\ed35";
+}
+.psi-rows-plus-top-light:before {
+  content: "\ed36";
+}
+.psi-rss-light:before {
+  content: "\ed37";
+}
+.psi-rss-simple-light:before {
+  content: "\ed38";
+}
+.psi-rug-light:before {
+  content: "\ed39";
+}
+.psi-ruler-light:before {
+  content: "\ed3a";
+}
+.psi-sailboat-light:before {
+  content: "\ed3b";
+}
+.psi-scales-light:before {
+  content: "\ed3c";
+}
+.psi-scan-light:before {
+  content: "\ed3d";
+}
+.psi-scan-smiley-light:before {
+  content: "\ed3e";
+}
+.psi-scissors-light:before {
+  content: "\ed3f";
+}
+.psi-scooter-light:before {
+  content: "\ed40";
+}
+.psi-screencast-light:before {
+  content: "\ed41";
+}
+.psi-scribble-light:before {
+  content: "\ed42";
+}
+.psi-scribble-loop-light:before {
+  content: "\ed43";
+}
+.psi-scroll-light:before {
+  content: "\ed44";
+}
+.psi-seal-check-light:before {
+  content: "\ed45";
+}
+.psi-seal-light:before {
+  content: "\ed46";
+}
+.psi-seal-percent-light:before {
+  content: "\ed47";
+}
+.psi-seal-question-light:before {
+  content: "\ed48";
+}
+.psi-seal-warning-light:before {
+  content: "\ed49";
+}
+.psi-seatbelt-light:before {
+  content: "\ed4a";
+}
+.psi-security-camera-light:before {
+  content: "\ed4b";
+}
+.psi-selection-all-light:before {
+  content: "\ed4c";
+}
+.psi-selection-background-light:before {
+  content: "\ed4d";
+}
+.psi-selection-foreground-light:before {
+  content: "\ed4e";
+}
+.psi-selection-inverse-light:before {
+  content: "\ed4f";
+}
+.psi-selection-light:before {
+  content: "\ed50";
+}
+.psi-selection-plus-light:before {
+  content: "\ed51";
+}
+.psi-selection-slash-light:before {
+  content: "\ed52";
+}
+.psi-shapes-light:before {
+  content: "\ed53";
+}
+.psi-share-fat-light:before {
+  content: "\ed54";
+}
+.psi-share-light:before {
+  content: "\ed55";
+}
+.psi-share-network-light:before {
+  content: "\ed56";
+}
+.psi-shield-check-light:before {
+  content: "\ed57";
+}
+.psi-shield-checkered-light:before {
+  content: "\ed58";
+}
+.psi-shield-chevron-light:before {
+  content: "\ed59";
+}
+.psi-shield-light:before {
+  content: "\ed5a";
+}
+.psi-shield-plus-light:before {
+  content: "\ed5b";
+}
+.psi-shield-slash-light:before {
+  content: "\ed5c";
+}
+.psi-shield-star-light:before {
+  content: "\ed5d";
+}
+.psi-shield-warning-light:before {
+  content: "\ed5e";
+}
+.psi-shirt-folded-light:before {
+  content: "\ed5f";
+}
+.psi-shooting-star-light:before {
+  content: "\ed60";
+}
+.psi-shopping-bag-light:before {
+  content: "\ed61";
+}
+.psi-shopping-bag-open-light:before {
+  content: "\ed62";
+}
+.psi-shopping-cart-light:before {
+  content: "\ed63";
+}
+.psi-shopping-cart-simple-light:before {
+  content: "\ed64";
+}
+.psi-shovel-light:before {
+  content: "\ed65";
+}
+.psi-shower-light:before {
+  content: "\ed66";
+}
+.psi-shrimp-light:before {
+  content: "\ed67";
+}
+.psi-shuffle-angular-light:before {
+  content: "\ed68";
+}
+.psi-shuffle-light:before {
+  content: "\ed69";
+}
+.psi-shuffle-simple-light:before {
+  content: "\ed6a";
+}
+.psi-sidebar-light:before {
+  content: "\ed6b";
+}
+.psi-sidebar-simple-light:before {
+  content: "\ed6c";
+}
+.psi-sigma-light:before {
+  content: "\ed6d";
+}
+.psi-sign-in-light:before {
+  content: "\ed6e";
+}
+.psi-sign-out-light:before {
+  content: "\ed6f";
+}
+.psi-signpost-light:before {
+  content: "\ed70";
+}
+.psi-sim-card-light:before {
+  content: "\ed71";
+}
+.psi-siren-light:before {
+  content: "\ed72";
+}
+.psi-sketch-logo-light:before {
+  content: "\ed73";
+}
+.psi-skip-back-circle-light:before {
+  content: "\ed74";
+}
+.psi-skip-back-light:before {
+  content: "\ed75";
+}
+.psi-skip-forward-circle-light:before {
+  content: "\ed76";
+}
+.psi-skip-forward-light:before {
+  content: "\ed77";
+}
+.psi-skull-light:before {
+  content: "\ed78";
+}
+.psi-skype-logo-light:before {
+  content: "\ed79";
+}
+.psi-slack-logo-light:before {
+  content: "\ed7a";
+}
+.psi-sliders-horizontal-light:before {
+  content: "\ed7b";
+}
+.psi-sliders-light:before {
+  content: "\ed7c";
+}
+.psi-slideshow-light:before {
+  content: "\ed7d";
+}
+.psi-smiley-angry-light:before {
+  content: "\ed7e";
+}
+.psi-smiley-blank-light:before {
+  content: "\ed7f";
+}
+.psi-smiley-light:before {
+  content: "\ed80";
+}
+.psi-smiley-meh-light:before {
+  content: "\ed81";
+}
+.psi-smiley-melting-light:before {
+  content: "\ed82";
+}
+.psi-smiley-nervous-light:before {
+  content: "\ed83";
+}
+.psi-smiley-sad-light:before {
+  content: "\ed84";
+}
+.psi-smiley-sticker-light:before {
+  content: "\ed85";
+}
+.psi-smiley-wink-light:before {
+  content: "\ed86";
+}
+.psi-smiley-x-eyes-light:before {
+  content: "\ed87";
+}
+.psi-sneaker-light:before {
+  content: "\ed88";
+}
+.psi-sneaker-move-light:before {
+  content: "\ed89";
+}
+.psi-snowflake-light:before {
+  content: "\ed8a";
+}
+.psi-soccer-ball-light:before {
+  content: "\ed8b";
+}
+.psi-sock-light:before {
+  content: "\ed8c";
+}
+.psi-solar-panel-light:before {
+  content: "\ed8d";
+}
+.psi-solar-roof-light:before {
+  content: "\ed8e";
+}
+.psi-sort-ascending-light:before {
+  content: "\ed8f";
+}
+.psi-sort-descending-light:before {
+  content: "\ed90";
+}
+.psi-soundcloud-logo-light:before {
+  content: "\ed91";
+}
+.psi-spade-light:before {
+  content: "\ed92";
+}
+.psi-sparkle-light:before {
+  content: "\ed93";
+}
+.psi-speaker-hifi-light:before {
+  content: "\ed94";
+}
+.psi-speaker-high-light:before {
+  content: "\ed95";
+}
+.psi-speaker-low-light:before {
+  content: "\ed96";
+}
+.psi-speaker-none-light:before {
+  content: "\ed97";
+}
+.psi-speaker-simple-high-light:before {
+  content: "\ed98";
+}
+.psi-speaker-simple-low-light:before {
+  content: "\ed99";
+}
+.psi-speaker-simple-none-light:before {
+  content: "\ed9a";
+}
+.psi-speaker-simple-slash-light:before {
+  content: "\ed9b";
+}
+.psi-speaker-simple-x-light:before {
+  content: "\ed9c";
+}
+.psi-speaker-slash-light:before {
+  content: "\ed9d";
+}
+.psi-speaker-x-light:before {
+  content: "\ed9e";
+}
+.psi-speedometer-light:before {
+  content: "\ed9f";
+}
+.psi-sphere-light:before {
+  content: "\eda0";
+}
+.psi-spinner-ball-light:before {
+  content: "\eda1";
+}
+.psi-spinner-gap-light:before {
+  content: "\eda2";
+}
+.psi-spinner-light:before {
+  content: "\eda3";
+}
+.psi-spiral-light:before {
+  content: "\eda4";
+}
+.psi-split-horizontal-light:before {
+  content: "\eda5";
+}
+.psi-split-vertical-light:before {
+  content: "\eda6";
+}
+.psi-spotify-logo-light:before {
+  content: "\eda7";
+}
+.psi-square-half-bottom-light:before {
+  content: "\eda8";
+}
+.psi-square-half-light:before {
+  content: "\eda9";
+}
+.psi-square-light:before {
+  content: "\edaa";
+}
+.psi-square-logo-light:before {
+  content: "\edab";
+}
+.psi-square-split-horizontal-light:before {
+  content: "\edac";
+}
+.psi-square-split-vertical-light:before {
+  content: "\edad";
+}
+.psi-squares-four-light:before {
+  content: "\edae";
+}
+.psi-stack-light:before {
+  content: "\edaf";
+}
+.psi-stack-minus-light:before {
+  content: "\edb0";
+}
+.psi-stack-overflow-logo-light:before {
+  content: "\edb1";
+}
+.psi-stack-plus-light:before {
+  content: "\edb2";
+}
+.psi-stack-simple-light:before {
+  content: "\edb3";
+}
+.psi-stairs-light:before {
+  content: "\edb4";
+}
+.psi-stamp-light:before {
+  content: "\edb5";
+}
+.psi-standard-definition-light:before {
+  content: "\edb6";
+}
+.psi-star-and-crescent-light:before {
+  content: "\edb7";
+}
+.psi-star-four-light:before {
+  content: "\edb8";
+}
+.psi-star-half-light:before {
+  content: "\edb9";
+}
+.psi-star-light:before {
+  content: "\edba";
+}
+.psi-star-of-david-light:before {
+  content: "\edbb";
+}
+.psi-steam-logo-light:before {
+  content: "\edbc";
+}
+.psi-steering-wheel-light:before {
+  content: "\edbd";
+}
+.psi-steps-light:before {
+  content: "\edbe";
+}
+.psi-stethoscope-light:before {
+  content: "\edbf";
+}
+.psi-sticker-light:before {
+  content: "\edc0";
+}
+.psi-stool-light:before {
+  content: "\edc1";
+}
+.psi-stop-circle-light:before {
+  content: "\edc2";
+}
+.psi-stop-light:before {
+  content: "\edc3";
+}
+.psi-storefront-light:before {
+  content: "\edc4";
+}
+.psi-strategy-light:before {
+  content: "\edc5";
+}
+.psi-stripe-logo-light:before {
+  content: "\edc6";
+}
+.psi-student-light:before {
+  content: "\edc7";
+}
+.psi-subset-of-light:before {
+  content: "\edc8";
+}
+.psi-subset-proper-of-light:before {
+  content: "\edc9";
+}
+.psi-subtitles-light:before {
+  content: "\edca";
+}
+.psi-subtitles-slash-light:before {
+  content: "\edcb";
+}
+.psi-subtract-light:before {
+  content: "\edcc";
+}
+.psi-subtract-square-light:before {
+  content: "\edcd";
+}
+.psi-subway-light:before {
+  content: "\edce";
+}
+.psi-suitcase-light:before {
+  content: "\edcf";
+}
+.psi-suitcase-rolling-light:before {
+  content: "\edd0";
+}
+.psi-suitcase-simple-light:before {
+  content: "\edd1";
+}
+.psi-sun-dim-light:before {
+  content: "\edd2";
+}
+.psi-sun-horizon-light:before {
+  content: "\edd3";
+}
+.psi-sun-light:before {
+  content: "\edd4";
+}
+.psi-sunglasses-light:before {
+  content: "\edd5";
+}
+.psi-superset-of-light:before {
+  content: "\edd6";
+}
+.psi-superset-proper-of-light:before {
+  content: "\edd7";
+}
+.psi-swap-light:before {
+  content: "\edd8";
+}
+.psi-swimming-pool-light:before {
+  content: "\edd9";
+}
+.psi-synagogue-light:before {
+  content: "\edda";
+}
+.psi-syringe-light:before {
+  content: "\eddb";
+}
+.psi-t-shirt-light:before {
+  content: "\eddc";
+}
+.psi-table-light:before {
+  content: "\eddd";
+}
+.psi-tabs-light:before {
+  content: "\edde";
+}
+.psi-tag-chevron-light:before {
+  content: "\eddf";
+}
+.psi-tag-light:before {
+  content: "\ede0";
+}
+.psi-tag-simple-light:before {
+  content: "\ede1";
+}
+.psi-target-light:before {
+  content: "\ede2";
+}
+.psi-tea-bag-light:before {
+  content: "\ede3";
+}
+.psi-telegram-logo-light:before {
+  content: "\ede4";
+}
+.psi-television-light:before {
+  content: "\ede5";
+}
+.psi-television-simple-light:before {
+  content: "\ede6";
+}
+.psi-tennis-ball-light:before {
+  content: "\ede7";
+}
+.psi-tent-light:before {
+  content: "\ede8";
+}
+.psi-terminal-light:before {
+  content: "\ede9";
+}
+.psi-terminal-window-light:before {
+  content: "\edea";
+}
+.psi-test-tube-light:before {
+  content: "\edeb";
+}
+.psi-text-a-underline-light:before {
+  content: "\edec";
+}
+.psi-text-aa-light:before {
+  content: "\eded";
+}
+.psi-text-align-center-light:before {
+  content: "\edee";
+}
+.psi-text-align-justify-light:before {
+  content: "\edef";
+}
+.psi-text-align-left-light:before {
+  content: "\edf0";
+}
+.psi-text-align-right-light:before {
+  content: "\edf1";
+}
+.psi-text-b-light:before {
+  content: "\edf2";
+}
+.psi-text-columns-light:before {
+  content: "\edf3";
+}
+.psi-text-h-five-light:before {
+  content: "\edf4";
+}
+.psi-text-h-four-light:before {
+  content: "\edf5";
+}
+.psi-text-h-light:before {
+  content: "\edf6";
+}
+.psi-text-h-one-light:before {
+  content: "\edf7";
+}
+.psi-text-h-six-light:before {
+  content: "\edf8";
+}
+.psi-text-h-three-light:before {
+  content: "\edf9";
+}
+.psi-text-h-two-light:before {
+  content: "\edfa";
+}
+.psi-text-indent-light:before {
+  content: "\edfb";
+}
+.psi-text-italic-light:before {
+  content: "\edfc";
+}
+.psi-text-outdent-light:before {
+  content: "\edfd";
+}
+.psi-text-strikethrough-light:before {
+  content: "\edfe";
+}
+.psi-text-subscript-light:before {
+  content: "\edff";
+}
+.psi-text-superscript-light:before {
+  content: "\ee00";
+}
+.psi-text-t-light:before {
+  content: "\ee01";
+}
+.psi-text-t-slash-light:before {
+  content: "\ee02";
+}
+.psi-text-underline-light:before {
+  content: "\ee03";
+}
+.psi-textbox-light:before {
+  content: "\ee04";
+}
+.psi-thermometer-cold-light:before {
+  content: "\ee05";
+}
+.psi-thermometer-hot-light:before {
+  content: "\ee06";
+}
+.psi-thermometer-light:before {
+  content: "\ee07";
+}
+.psi-thermometer-simple-light:before {
+  content: "\ee08";
+}
+.psi-threads-logo-light:before {
+  content: "\ee09";
+}
+.psi-three-d-light:before {
+  content: "\ee0a";
+}
+.psi-ticket-light:before {
+  content: "\ee0b";
+}
+.psi-tidal-logo-light:before {
+  content: "\ee0c";
+}
+.psi-tiktok-logo-light:before {
+  content: "\ee0d";
+}
+.psi-tilde-light:before {
+  content: "\ee0e";
+}
+.psi-timer-light:before {
+  content: "\ee0f";
+}
+.psi-tip-jar-light:before {
+  content: "\ee10";
+}
+.psi-tipi-light:before {
+  content: "\ee11";
+}
+.psi-tire-light:before {
+  content: "\ee12";
+}
+.psi-toggle-left-light:before {
+  content: "\ee13";
+}
+.psi-toggle-right-light:before {
+  content: "\ee14";
+}
+.psi-toilet-paper-light:before {
+  content: "\ee15";
+}
+.psi-toolbox-light:before {
+  content: "\ee16";
+}
+.psi-tornado-light:before {
+  content: "\ee17";
+}
+.psi-tote-light:before {
+  content: "\ee18";
+}
+.psi-tote-simple-light:before {
+  content: "\ee19";
+}
+.psi-towel-light:before {
+  content: "\ee1a";
+}
+.psi-tractor-light:before {
+  content: "\ee1b";
+}
+.psi-trademark-light:before {
+  content: "\ee1c";
+}
+.psi-trademark-registered-light:before {
+  content: "\ee1d";
+}
+.psi-traffic-cone-light:before {
+  content: "\ee1e";
+}
+.psi-traffic-sign-light:before {
+  content: "\ee1f";
+}
+.psi-traffic-signal-light:before {
+  content: "\ee20";
+}
+.psi-train-light:before {
+  content: "\ee21";
+}
+.psi-train-regional-light:before {
+  content: "\ee22";
+}
+.psi-train-simple-light:before {
+  content: "\ee23";
+}
+.psi-tram-light:before {
+  content: "\ee24";
+}
+.psi-translate-light:before {
+  content: "\ee25";
+}
+.psi-trash-light:before {
+  content: "\ee26";
+}
+.psi-trash-simple-light:before {
+  content: "\ee27";
+}
+.psi-tray-arrow-down-light:before {
+  content: "\ee28";
+}
+.psi-tray-arrow-up-light:before {
+  content: "\ee29";
+}
+.psi-tray-light:before {
+  content: "\ee2a";
+}
+.psi-treasure-chest-light:before {
+  content: "\ee2b";
+}
+.psi-tree-evergreen-light:before {
+  content: "\ee2c";
+}
+.psi-tree-light:before {
+  content: "\ee2d";
+}
+.psi-tree-palm-light:before {
+  content: "\ee2e";
+}
+.psi-tree-structure-light:before {
+  content: "\ee2f";
+}
+.psi-tree-view-light:before {
+  content: "\ee30";
+}
+.psi-trend-down-light:before {
+  content: "\ee31";
+}
+.psi-trend-up-light:before {
+  content: "\ee32";
+}
+.psi-triangle-dashed-light:before {
+  content: "\ee33";
+}
+.psi-triangle-light:before {
+  content: "\ee34";
+}
+.psi-trolley-light:before {
+  content: "\ee35";
+}
+.psi-trolley-suitcase-light:before {
+  content: "\ee36";
+}
+.psi-trophy-light:before {
+  content: "\ee37";
+}
+.psi-truck-light:before {
+  content: "\ee38";
+}
+.psi-truck-trailer-light:before {
+  content: "\ee39";
+}
+.psi-tumblr-logo-light:before {
+  content: "\ee3a";
+}
+.psi-twitch-logo-light:before {
+  content: "\ee3b";
+}
+.psi-twitter-logo-light:before {
+  content: "\ee3c";
+}
+.psi-umbrella-light:before {
+  content: "\ee3d";
+}
+.psi-umbrella-simple-light:before {
+  content: "\ee3e";
+}
+.psi-union-light:before {
+  content: "\ee3f";
+}
+.psi-unite-light:before {
+  content: "\ee40";
+}
+.psi-unite-square-light:before {
+  content: "\ee41";
+}
+.psi-upload-light:before {
+  content: "\ee42";
+}
+.psi-upload-simple-light:before {
+  content: "\ee43";
+}
+.psi-usb-light:before {
+  content: "\ee44";
+}
+.psi-user-check-light:before {
+  content: "\ee45";
+}
+.psi-user-circle-check-light:before {
+  content: "\ee46";
+}
+.psi-user-circle-dashed-light:before {
+  content: "\ee47";
+}
+.psi-user-circle-gear-light:before {
+  content: "\ee48";
+}
+.psi-user-circle-light:before {
+  content: "\ee49";
+}
+.psi-user-circle-minus-light:before {
+  content: "\ee4a";
+}
+.psi-user-circle-plus-light:before {
+  content: "\ee4b";
+}
+.psi-user-focus-light:before {
+  content: "\ee4c";
+}
+.psi-user-gear-light:before {
+  content: "\ee4d";
+}
+.psi-user-light:before {
+  content: "\ee4e";
+}
+.psi-user-list-light:before {
+  content: "\ee4f";
+}
+.psi-user-minus-light:before {
+  content: "\ee50";
+}
+.psi-user-plus-light:before {
+  content: "\ee51";
+}
+.psi-user-rectangle-light:before {
+  content: "\ee52";
+}
+.psi-user-sound-light:before {
+  content: "\ee53";
+}
+.psi-user-square-light:before {
+  content: "\ee54";
+}
+.psi-user-switch-light:before {
+  content: "\ee55";
+}
+.psi-users-four-light:before {
+  content: "\ee56";
+}
+.psi-users-light:before {
+  content: "\ee57";
+}
+.psi-users-three-light:before {
+  content: "\ee58";
+}
+.psi-van-light:before {
+  content: "\ee59";
+}
+.psi-vault-light:before {
+  content: "\ee5a";
+}
+.psi-vector-three-light:before {
+  content: "\ee5b";
+}
+.psi-vector-two-light:before {
+  content: "\ee5c";
+}
+.psi-vibrate-light:before {
+  content: "\ee5d";
+}
+.psi-video-camera-light:before {
+  content: "\ee5e";
+}
+.psi-video-camera-slash-light:before {
+  content: "\ee5f";
+}
+.psi-video-conference-light:before {
+  content: "\ee60";
+}
+.psi-video-light:before {
+  content: "\ee61";
+}
+.psi-vignette-light:before {
+  content: "\ee62";
+}
+.psi-vinyl-record-light:before {
+  content: "\ee63";
+}
+.psi-virtual-reality-light:before {
+  content: "\ee64";
+}
+.psi-virus-light:before {
+  content: "\ee65";
+}
+.psi-voicemail-light:before {
+  content: "\ee66";
+}
+.psi-volleyball-light:before {
+  content: "\ee67";
+}
+.psi-wall-light:before {
+  content: "\ee68";
+}
+.psi-wallet-light:before {
+  content: "\ee69";
+}
+.psi-warehouse-light:before {
+  content: "\ee6a";
+}
+.psi-warning-circle-light:before {
+  content: "\ee6b";
+}
+.psi-warning-diamond-light:before {
+  content: "\ee6c";
+}
+.psi-warning-light:before {
+  content: "\ee6d";
+}
+.psi-washing-machine-light:before {
+  content: "\ee6e";
+}
+.psi-wave-sawtooth-light:before {
+  content: "\ee6f";
+}
+.psi-wave-sine-light:before {
+  content: "\ee70";
+}
+.psi-wave-square-light:before {
+  content: "\ee71";
+}
+.psi-wave-triangle-light:before {
+  content: "\ee72";
+}
+.psi-waveform-light:before {
+  content: "\ee73";
+}
+.psi-waveform-slash-light:before {
+  content: "\ee74";
+}
+.psi-waves-light:before {
+  content: "\ee75";
+}
+.psi-webcam-light:before {
+  content: "\ee76";
+}
+.psi-webcam-slash-light:before {
+  content: "\ee77";
+}
+.psi-webhooks-logo-light:before {
+  content: "\ee78";
+}
+.psi-whatsapp-logo-light:before {
+  content: "\ee79";
+}
+.psi-wheelchair-light:before {
+  content: "\ee7a";
+}
+.psi-wheelchair-motion-light:before {
+  content: "\ee7b";
+}
+.psi-wifi-high-light:before {
+  content: "\ee7c";
+}
+.psi-wifi-low-light:before {
+  content: "\ee7d";
+}
+.psi-wifi-medium-light:before {
+  content: "\ee7e";
+}
+.psi-wifi-none-light:before {
+  content: "\ee7f";
+}
+.psi-wifi-slash-light:before {
+  content: "\ee80";
+}
+.psi-wifi-x-light:before {
+  content: "\ee81";
+}
+.psi-wind-light:before {
+  content: "\ee82";
+}
+.psi-windmill-light:before {
+  content: "\ee83";
+}
+.psi-windows-logo-light:before {
+  content: "\ee84";
+}
+.psi-wine-light:before {
+  content: "\ee85";
+}
+.psi-wrench-light:before {
+  content: "\ee86";
+}
+.psi-x-circle-light:before {
+  content: "\ee87";
+}
+.psi-x-light:before {
+  content: "\ee88";
+}
+.psi-x-logo-light:before {
+  content: "\ee89";
+}
+.psi-x-square-light:before {
+  content: "\ee8a";
+}
+.psi-yarn-light:before {
+  content: "\ee8b";
+}
+.psi-yin-yang-light:before {
+  content: "\ee8c";
+}
+.psi-youtube-logo-light:before {
+  content: "\ee8d";
+}

@@ -1,0 +1,306 @@
+@font-face {
+	font-family: 'Plipop-Social-Icons';
+	src:  url('../fonts/Plipop-Social-Icons.eot?xgz9qy');
+	src:  url('../fonts/Plipop-Social-Icons.eot?xgz9qy') format('embedded-opentype'),
+	url('../fonts/Plipop-Social-Icons.ttf?xgz9qy') format('truetype'),
+	url('../fonts/Plipop-Social-Icons.woff?xgz9qy') format('woff'),
+	url('../fonts/Plipop-Social-Icons.svg?xgz9qy') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ii {
+	font-family: 'Plipop-Social-Icons' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: auto;
+	line-height: normal;
+}
+
+.ii-blog-rn:before {
+	content: "\a101";
+}
+.ii-daum-cafe:before {
+	content: "\a102";
+}
+.ii-daum-cafe-sq:before {
+	content: "\a103";
+}
+.ii-daum-cafe-rn:before {
+	content: "\a104";
+}
+.ii-daum:before {
+	content: "\a105";
+}
+.ii-daum-sq:before {
+	content: "\a106";
+}
+.ii-daum-rn:before {
+	content: "\a107";
+}
+.ii-dropbox-rn:before {
+	content: "\a108";
+}
+.ii-facebook-rn:before {
+	content: "\a109";
+}
+.ii-googleplus-rn:before {
+	content: "\a110";
+}
+.ii-happybean:before {
+	content: "\a111";
+}
+.ii-happybean-sq:before {
+	content: "\a112";
+}
+.ii-happybean-rn:before {
+	content: "\a113";
+}
+.ii-imweb:before {
+	content: "\a114";
+}
+.ii-imweb-sq:before {
+	content: "\a115";
+}
+.ii-imweb-rn:before {
+	content: "\a116";
+}
+.ii-instagram-rn:before {
+	content: "\a117";
+}
+.ii-kakaostory-rn:before {
+	content: "\a118";
+}
+.ii-kakaotalk-rn:before {
+	content: "\a119";
+}
+.ii-naver-band:before {
+	content: "\a120";
+}
+.ii-naver-band-sq:before {
+	content: "\a121";
+}
+.ii-naver-band-rn:before {
+	content: "\a122";
+}
+.ii-nblog-rn:before {
+	content: "\a123";
+}
+.ii-ncafe-rn:before {
+	content: "\a124";
+}
+.ii-line-rn:before {
+	content: "\a125";
+}
+.ii-naver:before {
+	content: "\a126";
+}
+.ii-naver-sq:before {
+	content: "\a127";
+}
+.ii-naver-rn:before {
+	content: "\a128";
+}
+.ii-pinterest-rn:before {
+	content: "\a129";
+}
+.ii-plusfriend:before {
+	content: "\a130";
+}
+.ii-plusfriend-sq:before {
+	content: "\a131";
+}
+.ii-plusfriend-rn:before {
+	content: "\a132";
+}
+.ii-slideshare:before {
+	content: "\a133";
+}
+.ii-slideshare-sq:before {
+	content: "\a134";
+}
+.ii-slideshare-rn:before {
+	content: "\a135";
+}
+.ii-tistory:before {
+	content: "\a136";
+}
+.ii-tistory-sq:before {
+	content: "\a137";
+}
+.ii-tistory-rn:before {
+	content: "\a138";
+}
+.ii-twitter-rn:before {
+	content: "\a139";
+}
+.ii-vimeo-rn:before {
+	content: "\a140";
+}
+.ii-youtube-rn:before {
+	content: "\a141";
+}
+.ii-blog:before {
+	content: "\e900";
+}
+.ii-blog-sq:before {
+	content: "\e901";
+}
+.ii-dropbox:before {
+	content: "\e902";
+}
+.ii-dropbox-sq:before {
+	content: "\e903";
+}
+.ii-facebook:before {
+	content: "\e904";
+}
+.ii-facebook-sq:before {
+	content: "\e905";
+}
+.ii-googleplus:before {
+	content: "\e906";
+}
+.ii-googleplus-sq:before {
+	content: "\e907";
+}
+.ii-instagram:before {
+	content: "\e908";
+}
+.ii-instagram-sq:before {
+	content: "\e909";
+}
+.ii-kakaostory:before {
+	content: "\e90a";
+}
+.ii-kakaostory-sq:before {
+	content: "\e90b";
+}
+.ii-kakaotalk:before {
+	content: "\e90d";
+}
+.ii-kakaotalk-sq:before {
+	content: "\e90e";
+}
+.ii-nblog:before {
+	content: "\e90f";
+}
+.ii-nblog-sq:before {
+	content: "\e910";
+}
+.ii-ncafe:before {
+	content: "\e911";
+}
+.ii-ncafe-sq:before {
+	content: "\e912";
+}
+.ii-pinterest:before {
+	content: "\e913";
+}
+.ii-pinterest-sq:before {
+	content: "\e914";
+}
+.ii-twitter:before {
+	content: "\e915";
+}
+.ii-twitter-sq:before {
+	content: "\e916";
+}
+.ii-vimeo:before {
+	content: "\e917";
+}
+.ii-vimeo-sq:before {
+	content: "\e918";
+}
+.ii-youtube:before {
+	content: "\e919";
+}
+.ii-youtube-sq:before {
+	content: "\e91a";
+}
+.ii-line:before {
+	content: "\e91b";
+}
+.ii-line-sq:before {
+	content: "\e91c";
+}
+.ii-afreeca-tv:before {
+	content: "\e91e";
+}
+.ii-afreeca-tv-rn:before {
+	content: "\e90c";
+}
+.ii-afreeca-tv-sq:before {
+	content: "\e91d";
+}
+.ii-kakaotv:before {
+	content: "\e921";
+}
+.ii-kakaotv-rn:before {
+	content: "\e91f";
+}
+.ii-kakaotv-sq:before {
+	content: "\e920";
+}
+.ii-styleshare:before {
+	content: "\e924";
+}
+.ii-styleshare-sq:before {
+	content: "\e923";
+}
+.ii-styleshare-rn:before {
+	content: "\e922";
+}
+.ii-vingle:before {
+	content: "\e927";
+}
+.ii-vingle-sq:before {
+	content: "\e926";
+}
+.ii-vingle-rn:before {
+	content: "\e925";
+}
+.ii-brunch:before {
+	content: "\e92a";
+}
+.ii-brunch-sq:before {
+	content: "\e929";
+}
+.ii-brunch-rn:before {
+	content: "\e928";
+}
+.ii-slack:before {
+	content: "\e92d";
+}
+.ii-slack-mark:before {
+	content: "\e92e";
+}
+.ii-slack-rn:before {
+	content: "\e92b";
+}
+.ii-slack-sq:before {
+	content: "\e92c";
+}
+.ii-chzzk:before {
+	content: "\e92f";
+}
+.ii-wechat:before {
+	content: "\e930";
+}
+.ii-weibo:before {
+	content: "\e932";
+}
+.ii-soop:before {
+	content: "\e931";
+}
+.ii-meta:before {
+	content: "\e933";
+}
+.ii-x:before {
+	content: "\e934";
+}

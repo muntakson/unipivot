@@ -1,0 +1,273 @@
+# Clone and Rebuild unipivot.org Website
+# Implementation Plan
+
+project:
+  name: unipivot-website-clone
+  source_url: https://www.unipivot.org/
+  target_path: /home/jit/unipivot
+  platform: IMWEB (Korean hosted website builder)
+
+site_analysis:
+  pages:
+    - path: /
+      description: Homepage
+    - path: /about
+      description: About page
+    - path: /program
+      description: Program page
+    - path: /bookclub_offline
+      description: Offline book club
+    - path: /bookclub_olinen
+      description: Online book club
+    - path: /seminar
+      description: Seminar page
+    - path: /kmove
+      description: K-Move page
+    - path: /request
+      description: Request form page
+      has_form: true
+    - path: /board
+      description: Board/bulletin page
+    - path: /bookmap
+      description: Book map page
+    - path: /info
+      description: Information page
+    - path: /opinion
+      description: Opinion page
+    - path: /reviews
+      description: Reviews page
+    - path: /sentence
+      description: Sentence page
+    - path: /donate
+      description: Donation page
+      has_form: true
+    - path: /jobsproductdesigner
+      description: Product designer jobs
+    - path: /jobsdataengineer
+      description: Data engineer jobs
+    - path: /25
+      description: Additional page
+    - path: /31
+      description: Additional page
+    - path: /34
+      description: Additional page
+
+  external_resources:
+    images:
+      domain: cdn.imweb.me
+      action: download
+    css:
+      domain: vendor-cdn.imweb.me
+      action: download
+    fonts:
+      domains:
+        - fonts.googleapis.com
+        - fonts.gstatic.com
+      action: download
+    instagram:
+      domain: cdninstagram.com
+      action: skip
+      reason: Temporary URLs that expire
+
+implementation:
+  phase_1:
+    name: Clone Static Content
+    steps:
+      - step: 1
+        name: Clone website using wget
+        command: |
+          cd /home/jit/unipivot
+          wget --mirror \
+               --convert-links \
+               --adjust-extension \
+               --page-requisites \
+               --span-hosts \
+               --domains=www.unipivot.org,unipivot.org,cdn.imweb.me,vendor-cdn.imweb.me,fonts.googleapis.com,fonts.gstatic.com \
+               --no-parent \
+               --wait=1 \
+               --random-wait \
+               --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+               --execute robots=off \
+               --reject-regex='instagram|cdninstagram' \
+               https://www.unipivot.org/
+
+      - step: 2
+        name: Download all pages explicitly
+        command: |
+          for page in about program bookclub_offline bookclub_olinen seminar kmove request board bookmap info opinion reviews sentence donate jobsproductdesigner jobsdataengineer 25 31 34; do
+              wget --page-requisites --convert-links --adjust-extension \
+                   --span-hosts --domains=cdn.imweb.me,vendor-cdn.imweb.me \
+                   --reject-regex='instagram|cdninstagram' \
+                   --directory-prefix=/home/jit/unipivot \
+                   "https://www.unipivot.org/$page"
+          done
+
+      - step: 3
+        name: Reorganize folder structure
+        commands:
+          - mv /home/jit/unipivot/www.unipivot.org/* /home/jit/unipivot/
+          - mkdir -p /home/jit/unipivot/assets/{images,css,js,fonts}
+          - mv /home/jit/unipivot/cdn.imweb.me/* /home/jit/unipivot/assets/images/
+          - mv /home/jit/unipivot/vendor-cdn.imweb.me/* /home/jit/unipivot/assets/css/
+
+      - step: 4
+        name: Fix asset paths in HTML/CSS files
+        description: Update all references from CDN URLs to local paths
+        replacements:
+          - from: cdn.imweb.me/
+            to: /assets/images/
+          - from: vendor-cdn.imweb.me/
+            to: /assets/css/
+
+  phase_2:
+    name: Set Up Backend for Forms
+    steps:
+      - step: 5
+        name: Install Node.js
+        commands:
+          - sudo apt-get update
+          - sudo apt-get install -y nodejs npm
+
+      - step: 6
+        name: Create Express backend
+        commands:
+          - mkdir -p /home/jit/unipivot/backend
+          - cd /home/jit/unipivot/backend && npm init -y
+          - cd /home/jit/unipivot/backend && npm install express body-parser nodemailer cors
+        create_file:
+          path: /home/jit/unipivot/backend/server.js
+          content: |
+            const express = require('express');
+            const bodyParser = require('body-parser');
+            const app = express();
+
+            app.use(bodyParser.json());
+            app.use(bodyParser.urlencoded({ extended: true }));
+
+            // Form submission endpoint
+            app.post('/api/request', (req, res) => {
+                console.log('Form submitted:', req.body);
+                res.json({ success: true });
+            });
+
+            app.post('/api/donate', (req, res) => {
+                console.log('Donation form:', req.body);
+                res.json({ success: true });
+            });
+
+            app.listen(3000, () => console.log('Backend running on port 3000'));
+
+  phase_3:
+    name: Configure Nginx
+    steps:
+      - step: 7
+        name: Install and configure Nginx
+        commands:
+          - sudo apt-get install -y nginx
+        create_file:
+          path: /etc/nginx/sites-available/unipivot
+          content: |
+            server {
+                listen 80;
+                server_name unipivot.org www.unipivot.org;
+
+                root /home/jit/unipivot;
+                index index.html;
+
+                location / {
+                    try_files $uri $uri.html $uri/ =404;
+                }
+
+                location /assets/ {
+                    alias /home/jit/unipivot/assets/;
+                    expires 30d;
+                }
+
+                location /api/ {
+                    proxy_pass http://127.0.0.1:3000;
+                    proxy_http_version 1.1;
+                    proxy_set_header Host $host;
+                    proxy_set_header X-Real-IP $remote_addr;
+                }
+            }
+        enable_commands:
+          - sudo ln -s /etc/nginx/sites-available/unipivot /etc/nginx/sites-enabled/
+          - sudo nginx -t
+          - sudo systemctl reload nginx
+
+  phase_4:
+    name: Update Forms in HTML
+    steps:
+      - step: 8
+        name: Modify form actions
+        description: Update form elements to submit to local API
+        forms_to_update:
+          - page: /request
+            new_action: /api/request
+          - page: /donate
+            new_action: /api/donate
+
+  phase_5:
+    name: Run Backend as Service
+    steps:
+      - step: 9
+        name: Create systemd service
+        create_file:
+          path: /etc/systemd/system/unipivot-backend.service
+          content: |
+            [Unit]
+            Description=Unipivot Backend
+            After=network.target
+
+            [Service]
+            Type=simple
+            User=jit
+            WorkingDirectory=/home/jit/unipivot/backend
+            ExecStart=/usr/bin/node server.js
+            Restart=on-failure
+
+            [Install]
+            WantedBy=multi-user.target
+        enable_commands:
+          - sudo systemctl daemon-reload
+          - sudo systemctl enable unipivot-backend
+          - sudo systemctl start unipivot-backend
+
+  phase_6:
+    name: Testing
+    steps:
+      - step: 10
+        name: Verify everything works
+        checklist:
+          - Test static pages load correctly
+          - Test navigation/menu works
+          - Test forms submit properly
+          - Verify all images load
+          - Check CSS/fonts render correctly
+
+final_folder_structure:
+  root: /home/jit/unipivot/
+  contents:
+    - index.html
+    - about.html
+    - program.html
+    - request.html
+    - donate.html
+    - "... (other pages)"
+    - assets/:
+        - images/  # From cdn.imweb.me
+        - css/     # From vendor-cdn.imweb.me
+        - js/
+        - fonts/
+    - backend/:
+        - package.json
+        - server.js
+    - common/:
+        - img/
+
+notes:
+  - Forms will be functional but need custom backend logic for actual processing
+  - Google Fonts can be downloaded locally or kept as CDN references
+  - Instagram feed skipped - would need Instagram API integration if needed later
+  - Login/user system not cloned - requires full auth implementation if needed
+  - Database setup needed if site stores data (board posts, reviews, etc.)

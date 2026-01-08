@@ -1,0 +1,357 @@
+/* **
+
+       !important
+
+                    ** */
+
+/* 헤이트 */
+.h16{height:16px !important}
+.h30{height:30px !important}
+.h38{height:38px !important}
+.h44{height:44px !important}
+
+.h45 {
+	height : 45px !important
+}
+.h46{height:46px !important}
+.h48{height:48px !important}
+.h72{height:72px !important}
+.h64{height:64px !important}
+.h300{height:300px !important}
+.h467{height:467px !important}
+.h430{height:430px !important}
+.h465{height:465px !important}
+/* //헤이트 */
+
+/* 위드 */
+.w100p{width:100% !important}
+.w44{width:44px !important}
+.w55{width:55px !important}
+.w66{width:66px !important}
+.w70{width:70px !important}
+.w82{width:82px !important}
+.w100{width:100px !important}
+.w200{width:200px !important}
+.w300{width:300px !important}
+.w120{width:120px !important}
+.w150{width:150px !important}
+.w170{width:170px !important}
+.w257{width:257px !important}
+.w49p{width:49% !important}
+.w120p {width:120% !important}
+.w252{width:252px !important}
+.w256{width:256px !important}
+/* //위드 */
+
+/* 패딩 마진 */
+.bt0{border-top:none !important}
+.mt0{margin-top:0 !important}
+.mt5{margin-top:5px !important}
+.mt6{margin-top:6px !important}
+.mt8{margin-top:8px !important}
+.mt14{margin-top:14px !important}
+.mb0{margin-bottom:0 !important}
+.mb1{margin-bottom:1px !important}
+.mb2{margin-bottom:2px !important}
+.mb3{margin-bottom:3px !important}
+.mb4{margin-bottom:4px !important}
+.mb5{margin-bottom:5px !important}
+.mb8{margin-bottom:8px !important}
+.mb10{margin-bottom:10px !important}
+.mb22{margin-bottom:22px !important}
+.mb23{margin-bottom:23px !important}
+.mb24{margin-bottom:24px !important}
+.mb32{margin-bottom:32px !important}
+.mb200{margin-bottom:200px !important}
+.mt-1{margin-top: -1px !important }
+.mt3{margin-top:3px !important}
+.mt7{margin-top:7px !important}
+.mt8{margin-top:8px !important}
+.mt9{margin-top:9px !important}
+.mt10{margin-top:10px !important}
+.mt12{margin-top:12px !important}
+.mt14{margin-top:14px !important}
+.mt15{margin-top:15px !important}
+.mt16{margin-top:16px !important}
+.mt17{margin-top:17px !important}
+.mt19{margin-top:19px !important}
+.mt20{margin-top:20px !important}
+.mt22{margin-top:22px !important}
+.mt23{margin-top:23px !important}
+.mt24{margin-top:24px !important}
+.mt25{margin-top:25px !important}
+.mt27{margin-top:27px !important}
+.mt28{margin-top:28px !important}
+.mt30{margin-top:30px !important}
+.mt32{margin-top:32px !important}
+.mt35{margin-top:35px !important}
+.mt42{margin-top:42px !important}
+.mt48{margin-top:48px !important}
+.mt65{margin-top:65px !important}
+.mt120{margin-top:120px !important}
+.ml0{margin-left:0 !important}
+.ml8{margin-left:8px !important}
+.ml10{margin-left:10px !important}
+.ml12{margin-left:12px !important}
+.ml13{margin-left:13px !important}
+.ml15{margin-left:15px !important}
+.ml16{margin-left:16px !important}
+.ml17{margin-left:17px !important}
+.ml21{margin-left:21px !important}
+.ml24{margin-left:24px !important}
+.ml35{margin-left:35px !important}
+.ml55{margin-left:55px !important}
+.ml56{margin-left:56px !important}
+.ml65{margin-left:65px !important}
+.ml135{margin-left:135px !important}
+.ml256{margin-left:256px !important}
+.mr15{margin-right:15px !important}
+.mr9{margin-right:9px !important}
+.mr16{margin-right:16px !important}
+.pd0 {padding:0 !important}
+.pt0{padding-top:0 !important}
+.pt7{padding-top:7px !important}
+.pt10{padding-top:10px !important}
+.pt18{padding-top:18px !important}
+.pt20{padding-top:20px !important}
+.pt30{padding-top:30px !important}
+.pt35{padding-top:35px !important}
+.pt42{padding-top:42px !important}
+.pr0{padding-right:0 !important}
+.pr15{padding-right:15px !important}
+.pl0{padding-left:0 !important}
+.pl16{padding-left:16px !important}
+.pl24{padding-left:24px !important}
+.pl64{padding-left:64px !important}
+.pb0{padding-bottom:0 !important}
+.pb10{padding-bottom:10px !important}
+.pb16{padding-bottom:16px !important}
+
+
+.p_lr_space {padding-left:24px !important;padding-right:24px !important}
+.m_lr_space {margin-left:24px !important;margin-right:24px !important}
+/* //패딩 마진 */
+
+/* 기타 */
+.over_a {overflow:auto !important;}
+.over_h {overflow:hidden;}
+.relative {position:relative; }
+.absolute {position:absolute; }
+.fixed {position:fixed; }
+.num{display:inline-block; width:22px; height:22px; background-color:#F84A71; color:#fff; text-align:center; line-height:21px }
+.clear{clear:both;}
+.txt_l{text-align:left !important}
+.txt_r{text-align:right !important}
+.txt_c{text-align:center !important}
+.float_l{float:left !important}
+.float_r{float:right !important}
+.w_bar {width:100%; height:1px; background:#eee; display:block;}
+/* //기타 */
+
+
+/* 컬러 */
+.c_eee{background-color:#eee !important; }
+.c_8ae{background-color:#8AEDE1 !important}
+.c_04b{background-color:#00B8FF !important}
+.c_f8e{background-color:#F8E71C !important}
+.c_000{background-color:#000 !important; }
+.c_901{background-color:#9013FE !important}
+.c_bd1{background-color:#BD10E0 !important}
+.c_ff8{background-color:#FF83E6 !important}
+.c_000{background-color:#000 !important}
+.c_901{background-color:#9013FE !important}
+.c_bd1{background-color:#BD10E0 !important}
+.c_ff8{background-color:#FF83E6 !important}
+.c_fff{background-color:#fff !important}
+.c_d00{background-color:#D0021B !important}
+.c_f58{background-color:#F58723 !important}
+.c_ffc{background-color:#FFC303 !important}
+.c_b8e{background-color:#B8E986 !important}
+.c_e4e{background-color:#E4ED8A !important}
+.c_04b{background-color:#04B56A !important}
+.c_f8e{background-color:#F8E71C !important}
+.c_000{background-color:#000 !important}
+.c_434343{background-color:#434343 !important}
+.c_666{background-color:#666 !important}
+.c_999{background-color:#999 !important}
+.c_b7b7b7 {background-color:#b7b7b7 !important}
+.c_ccc{background-color:#ccc !important}
+.c_d9d9d9{background-color:#d9d9d9 !important}
+.c_efefef{background-color:#efefef !important}
+.c_f3f3f3{background-color:#f3f3f3 !important}
+.c_980000{background-color:#980000 !important}
+.c_F80500{background-color:#F80500 !important}
+.c_F99900{background-color:#F99900 !important}
+.c_FBFF00{background-color:#FBFF00 !important}
+.c_32FF00{background-color:#32FF00 !important}
+.c_48FFFF{background-color:#48FFFF !important}
+.c_4A86E8{background-color:#4A86E8 !important}
+.c_3200FF{background-color:#3200FF !important}
+.c_9903FF{background-color:#9903FF !important}
+.c_FB01FF{background-color:#FB01FF !important}
+.c_E6B8AF{background-color:#E6B8AF !important}
+.c_F4CCCC{background-color:#F4CCCC !important}
+.c_FCE5CD{background-color:#FCE5CD !important}
+.c_FDF2CC{background-color:#FDF2CC !important}
+.c_D9E9D3{background-color:#D9E9D3 !important}
+.c_D0E0E3{background-color:#D0E0E3 !important}
+.c_C9D9F8{background-color:#C9D9F8 !important}
+.c_CFE2F3{background-color:#CFE2F3 !important}
+.c_D9D1E9{background-color:#D9D1E9 !important}
+.c_EAD1DC{background-color:#EAD1DC !important}
+.c_DD7E6B{background-color:#DD7E6B !important}
+.c_EA9999{background-color:#EA9999 !important}
+.c_F9CB9C{background-color:#F9CB9C !important}
+.c_FCE599{background-color:#FCE599 !important}
+.c_B6D7A8{background-color:#B6D7A8 !important}
+.c_A2C4C9{background-color:#A2C4C9 !important}
+.c_A4C2F4{background-color:#A4C2F4 !important}
+.c_9FC4E8{background-color:#9FC4E8 !important}
+.c_B4A7D6{background-color:#B4A7D6 !important}
+.c_D5A6BD{background-color:#D5A6BD !important}
+.c_CC4124{background-color:#CC4124 !important}
+.c_E06666{background-color:#E06666 !important}
+.c_F6B26B{background-color:#F6B26B !important}
+.c_FBDA66{background-color:#FBDA66 !important}
+.c_93C47D{background-color:#93C47D !important}
+.c_76A5AF{background-color:#76A5AF !important}
+.c_6D9EEB{background-color:#6D9EEB !important}
+.c_6FA7DC{background-color:#6FA7DC !important}
+.c_6FA7DC{background-color:#6FA7DC !important}
+.c_C27AA0{background-color:#C27AA0 !important}
+.c_CC4124{background-color:#CC4124 !important}
+.c_E06666{background-color:#E06666 !important}
+.c_F6B26B{background-color:#F6B26B !important}
+.c_FBDA66{background-color:#FBDA66 !important}
+.c_93C47D{background-color:#93C47D !important}
+.c_76A5AF{background-color:#76A5AF !important}
+.c_6D9EEB{background-color:#6D9EEB !important}
+.c_6FA7DC{background-color:#6FA7DC !important}
+.c_6FA7DC{background-color:#6FA7DC !important}
+.c_C27AA0{background-color:#C27AA0 !important}
+.c_A61B00{background-color:#A61B00 !important}
+.c_CC0100{background-color:#CC0100 !important}
+.c_E59138{background-color:#E59138 !important}
+.c_F1C231{background-color:#F1C231 !important}
+.c_6AA74F{background-color:#6AA74F !important}
+.c_45818E{background-color:#45818E !important}
+.c_3C78D8{background-color:#3C78D8 !important}
+.c_3D85C6{background-color:#3D85C6 !important}
+.c_674EA7{background-color:#674EA7 !important}
+.c_A64D79{background-color:#A64D79 !important}
+.c_85200B{background-color:#85200B !important}
+.c_990100{background-color:#990100 !important}
+.c_B45F05{background-color:#B45F05 !important}
+.c_BF9000{background-color:#BF9000 !important}
+.c_38761C{background-color:#38761C !important}
+.c_134F5C{background-color:#134F5C !important}
+.c_2955CC{background-color:#2955CC !important}
+.c_1D5294{background-color:#1D5294 !important}
+.c_341C75{background-color:#341C75 !important}
+.c_741A47{background-color:#741A47 !important}
+.c_5B0F00{background-color:#5B0F00 !important}
+.c_660100{background-color:#660100 !important}
+.c_783F03{background-color:#783F03 !important}
+.c_7F6001{background-color:#7F6001 !important}
+.c_274E12{background-color:#274E12 !important}
+.c_0C343D{background-color:#0C343D !important}
+.c_1C4587{background-color:#1C4587 !important}
+.c_103763{background-color:#103763 !important}
+.c_20114D{background-color:#20114D !important}
+.c_4C1030{background-color:#4C1030 !important}
+.c_FFC303{background-color:#FFC303 !important}
+.c_FFC303{background-color:#FFC303 !important}
+.c_37c0be{background-color:#00B8FF !important}
+.f_37c0be{color:#00B8FF !important}
+.f_30B5B5{color:#30B5B5 !important}
+.font_04b{color:#00B8FF !important}
+/* //컬러 */
+
+
+/*폰트 사이즈*/
+.f_s13{font-size:13px;}
+
+/*//폰트 사이즈*/
+
+/* flex */
+.im-flex {
+	display: flex;
+}
+.im-inline-flex {
+	display: inline-flex;
+}
+.im-flex-col {
+	flex-direction: column;
+}
+.im-flex-col-reverse {
+	flex-direction: column-reverse;
+}
+.im-justify-between {
+	justify-content: space-between;
+}
+.im-justify-center {
+	justify-content: center;
+}
+.im-justify-end {
+	justify-content: flex-end;
+}
+.im-items-center {
+	align-items: center;
+}
+.im-items-end {
+	align-items: flex-end;
+}
+.im-flex-1 {
+	flex: 1 1 0;
+}
+.im-grow {
+	flex-grow: 1;
+}
+.im-font-normal {
+	font-weight: normal;
+}
+.im-line-height-120 {
+	line-height: 1.2;
+}
+@media (max-width: 767px) {
+	.im-xs-flex {
+		display: flex;
+	}
+	.im-xs-inline-flex {
+		display: inline-flex;
+	}
+	.im-xs-block {
+		display: block;
+	}
+	.im-xs-flex-col {
+		flex-direction: column;
+	}
+	.im-xs-flex-row {
+		flex-direction: row;
+	}
+	.im-xs-flex-row-reverse {
+		flex-direction: row-reverse;
+	}
+	.im-xs-flex-wrap {
+		flex-wrap: wrap;
+	}
+	.im-xs-flex-wrap-reverse {
+		flex-wrap: wrap-reverse;
+	}
+	.im-xs-justify-between {
+		justify-content: space-between;
+	}
+	.im-xs-flex-1 {
+		flex: 1 1 0;
+	}
+	.im-xs-font-normal {
+		font-weight: normal;
+	}
+	.im-xs-bold {
+		font-weight: 700;
+	}
+	.im-xs-align-top {
+		vertical-align: top;
+	}
+}
+/* flex end */

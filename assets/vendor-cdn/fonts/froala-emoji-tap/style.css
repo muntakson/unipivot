@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'froala-emoji-tap';
+  src:  url('fonts/froala-emoji-tap.eot%3Foojeml');
+  src:  url('fonts/froala-emoji-tap.eot%3Foojeml') format('embedded-opentype'),
+    url('fonts/froala-emoji-tap.ttf%3Foojeml') format('truetype'),
+    url('fonts/froala-emoji-tap.woff%3Foojeml') format('woff'),
+    url('fonts/froala-emoji-tap.svg%3Foojeml') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.fet {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'froala-emoji-tap' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 20px;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fet-activity:before {
+  content: "\e900";
+  color: #777;
+}
+.fet-flags:before {
+  content: "\e901";
+  color: #777;
+}
+.fet-foods:before {
+  content: "\e902";
+  color: #777;
+}
+.fet-nature:before {
+  content: "\e903";
+  color: #777;
+}
+.fet-objects:before {
+  content: "\e904";
+  color: #777;
+}
+.fet-people:before {
+  content: "\e905";
+  color: #777;
+}
+.fet-places:before {
+  content: "\e906";
+  color: #777;
+}
+.fet-Recently:before {
+  content: "\e907";
+  color: #777;
+}
+.fet-symbols:before {
+  content: "\e908";
+  color: #777;
+}
+
+.fet:hover::before{
+  color: #fff;
+  font-size: inherit;
+}
+ 
+                     

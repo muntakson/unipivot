@@ -1,0 +1,63 @@
+.is-ie input[type=text]::-ms-clear {
+	display: none;
+}
+.is-ie .grid_01.hover_show_overlay .item_gallary .text_wrap {
+	display: none !important;
+}
+.is-ie .grid_01.hover_show_overlay .item_gallary .item_container:hover .text_wrap {
+	display: table !important;
+}
+html.is-ie.fullboard_on {
+	height: 100%;
+	overflow: hidden;
+}
+.is-ie body {
+	zoom : 1 !important;
+}
+.is-ie .fullboard_on body {
+	height: 100%;
+}
+.is-ie .modal.modal_widget_fullboard {
+	height: auto;
+	min-height: 100%;
+}
+.is-ie #doz_header .navbar-nav > .viewport-nav > li {
+	display: inline;
+}
+.is-ie #doz_header .inline-section .navbar-nav > .viewport-nav > li {
+	display: inline-block;
+}
+.is-ie .thumb-fluid {
+	margin        : 0 auto;
+	padding-left  : 0;
+	padding-right : 0;
+}
+.is-ie .inside .thumb-fluid {
+	padding-left  : 0;
+	padding-right : 0;
+}
+.is-ie .owl-carousel .item-overlay {
+	transition: none !important;
+}
+.is-ie #doz_header .navbar.type04 .main_menu_wrap.ie_float {
+	float : right;
+}
+.is-ie .widget.image_map div a  {
+	background-color: rgba(204,204,204,0.01);
+}
+.is-ie .widget_text_wrap.fr-view table,
+.is-ie .shop_view .fr-view table,
+.is-ie .banner-container,
+.is-ie .board_view .fr-view table,
+.is-ie .write-body .fr-view table {
+	table-layout: fixed;
+}
+.is-ie .widget.board .fr-view table > tbody img {
+	max-width: 100%;
+}
+.is-ie div[data-widget-type="map"] .map_info_box {
+	overflow-y : hidden !important;
+}
+.is-ie div[data-widget-type="gallery2"] .lg-outer .lg-img-wrap {
+	z-index: -999;
+}
